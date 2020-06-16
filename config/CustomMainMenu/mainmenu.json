@@ -1,0 +1,176 @@
+{
+    "buttons":
+    {
+        "title":
+        {
+            "text" : "",
+            "posX" : -135,
+            "posY" : -55,
+            "width" : 276,
+            "height" : 50,
+			"imageWidth" : 700,
+			"imageHeight" : 120,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/GonerEden.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "tooltip" : "点我",
+            "action" : 
+            {
+                "type" : "refresh"
+            },
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        },
+		
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -200,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/btn2.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            },
+            "shadow" : false,
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        },
+       
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -120,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/btn2.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            },
+            "shadow" : false,
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        },
+           
+        "options":
+        {
+            "text" : "控制选项",
+            "posX" : -40,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/btn2.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            },
+            "shadow" : false,
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        },
+       
+        "language":
+        {
+            "text" : "语言设置",
+            "posX" : 40,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/btn2.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "languages"
+            },
+            "shadow" : false,
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        },
+       
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 120,
+            "posY" : 0,
+            "width" : 80,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "center",
+            "texture" : "mainmenu:textures/btn2.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "action" : 
+            {
+                "type" : "quit"
+            },
+            "shadow" : false,
+			"hoverSound" : "menu:sounds/hover",
+			"pressSound" : "menu:sounds/click"
+        }
+    },
+   
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for MC #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 200,
+            "posY" : -100,
+            "color" : -1,
+			"fontSize" : 2,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+   
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : -90,
+            "posY" : -60,
+            "color" : -256,
+            "alignment" : "center",
+            "texts" : "file:mainmenu:texts/splashes.txt"
+        },
+		
+        "background":
+        {
+            "image" : "mainmenu:textures/forest_night_pixel_1.png",
+            "mode" : "stretch"
+        }
+    }
+}

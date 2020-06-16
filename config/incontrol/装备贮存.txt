@@ -1,0 +1,32 @@
+[
+{
+    "mob": "minecraft:zombie",
+	"customname": "随意武装的腐朽者",
+    "seasky": true,
+	"maxlight": 10,
+    "result": "allow",
+
+    "healthmultiply": 2.5,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armorhelmet": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","iceandfire:armor_silver_metal_helmet","thebetweenlands:spirit_tree_face_large_mask"],
+	"armorchest": ["immersiveengineering:steel_armor_chest","thaumcraft:void_robe_chest"],
+	"armorlegs": ["immersiveengineering:steel_armor_legs","thaumcraft:void_robe_legs","iceandfire:armor_silver_metal_leggings"],
+	"armorboots": ["immersiveengineering:steel_armor_feet","thaumcraft:traveller_boots","iceandfire:armor_silver_metal_boots"],
+	"helditem": ["embers:grandhammer","iceandfire:myrmex_desert_sword","embers:axe_clockwork","embers:pickaxe_clockwork"]
+  },
+  {
+    "mob": "minecraft:skeleton",
+	"customname": "腐朽祁手",
+    "seasky": true,
+    "result": "allow",
+    "damagemultiply": 3,
+    "armorhelmet": ["embers:ashen_cloak_head","thebetweenlands:explorers_hat"],
+	"armorchest": [,"embers:ashen_cloak_chest"],
+	"armorlegs": ["embers:ashen_cloak_legs"],
+	"armorboots": ["embers:ashen_cloak_boots"],
+	"helditem": "iceandfire:dragonbone_bow"
+  }
+  
+  
+]

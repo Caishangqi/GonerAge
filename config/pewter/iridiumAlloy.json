@@ -1,0 +1,157 @@
+{
+  "name": "IridiumAlloy",
+  "tool": {
+    "bow": {
+      "speed": 2.0,
+      "range": 5.0,
+      "bonusDamage": 15.0
+    },
+    "fletching": {
+      "accuracy": 1,
+      "modifier": 3.0
+    },
+    "head": {
+      "attackDamage": 20.0,
+      "speed": 5.5,
+      "durability": 1000,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 4.22,
+      "durability": 500
+    },
+    "arrowShaft": {
+      "modifier": 3.2,
+      "bonusAmmo": 9
+    },
+    "bowstring": {
+      "modifier": 3.0
+    },
+    "extra": {
+      "durability": 250
+    }
+  },
+  "color": "#697a96",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1375,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 2000,
+    "luminosity": 5
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "IridiumAlloy",
+    "zh_cn": "铱合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "techreborn:ingot:22"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 33.5,
+      "defense": 24.78
+    },
+    "plates": {
+      "modifier": 20.75,
+      "durability": 40.0,
+      "toughness": 10.0
+    },
+    "trim": {
+      "extraDurability": 15.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "dense",
+      "brilliance",
+	  "lightweight",
+	  "stiff",
+	  "tr_entropic",
+	  "alien",
+	  "poisonous"
+    ],
+    "HEAD": [
+      "brilliance",
+	  "momentum",
+	  "sharp",
+	  "stiff",
+	  "tr_entropic",
+	  "alien",
+	  "poisonous"
+    ],
+    "HANDLE": [
+      "brilliance",
+	  "lightweight",
+	  "tr_entropic",
+	  "alien",
+	  "poisonous"
+    ],
+    "BOW": [
+      "brilliance"
+    ],
+    "PROJECTILE": [
+      "brilliance"
+    ],
+    "CORE": [
+      "heatlover_armor",
+	  "alien",
+	  "aridiculous_armor",
+	  "lightweight_armor",
+	  "featherweight_armor",
+	  "voltaic_armor",
+	  "branded_armor"
+    ],
+    "PLATES": [
+      "heatlover_armor",
+	  "aridiculous_armor",
+	  "lightweight_armor",
+	  "featherweight_armor",
+	  "voltaic_armor",
+	  "branded_armor"
+    ],
+    "TRIM": [
+      "heatlover_armor",
+	  "aridiculous_armor",
+	  "lightweight_armor",
+	  "featherweight_armor",
+	  "voltaic_armor",
+	  "branded_armor"
+    ]
+  }
+}

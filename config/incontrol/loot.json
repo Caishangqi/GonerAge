@@ -1,0 +1,20 @@
+[
+{
+    "mob": "minecraft:zombie",
+    "remove": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask","embers:grandhammer","embers:axe_clockwork","embers:pickaxe_clockwork"]
+  },
+  {
+    "mob": "minecraft:zombie",
+    "player": true,
+    "item": "minecraft:bone",
+    "itemcount": "1-2/2-3/3-4"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "remove": ["embers:ashen_cloak_head","thebetweenlands:explorers_hat","embers:ashen_cloak_chest","embers:ashen_cloak_legs","embers:ashen_cloak_boots"]
+  },
+  {
+    "mob": "minecraft:blaze",
+    "remove": ["immersiveengineering:steel_armor_chest","thaumcraft:void_robe_chest"]
+  }
+]

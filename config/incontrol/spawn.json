@@ -1,0 +1,175 @@
+[
+{
+    "mob": "minecraft:zombie",
+    "seesky": true,
+	"minlight": 0,
+	"maxlight": 5,
+    "result": "allow",
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armorhelmet": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask"],
+	"helditem": ["embers:grandhammer","embers:axe_clockwork","embers:pickaxe_clockwork"]
+  },
+  {
+    "mob": "minecraft:spider",
+    "seesky": false,
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 2,
+    "speedmultiply": 1.5,
+	"armorchest": ["immersiveengineering:steel_armor_chest","thaumcraft:void_robe_chest"]
+ },
+   {
+    "mob": "embers:ancient_golem",
+    "result": "allow",
+    "damagemultiply": 2,
+    "speedmultiply": 1
+  },
+     {
+    "mob": "twilightforest:hydra",
+    "result": "allow",
+    "healthmultiply": 10,
+    "damagemultiply": 2,
+	"onjoin": true
+  },
+       {
+    "mob": "twilightforest:lich",
+    "result": "allow",
+    "healthmultiply": 5,
+    "damagemultiply": 4,
+	"onjoin": true
+  },
+         {
+    "mob": "twilightforest:minotaur",
+    "result": "allow",
+    "healthmultiply": 6,
+    "damagemultiply": 5,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+           {
+    "mob": "twilightforest:knight_phantom",
+    "result": "allow",
+    "healthmultiply": 4,
+    "damagemultiply": 2,
+	"speedmultiply": 1
+  },
+             {
+    "mob": "twilightforest:ur_ghast",
+    "result": "allow",
+    "healthmultiply": 6,
+    "damagemultiply": 3,
+	"onjoin": true
+  },
+               {
+    "mob": "twilightforest:yeti_alpha",
+    "result": "allow",
+    "healthmultiply": 10,
+    "damagemultiply": 2,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+                 {
+    "mob": "twilightforest:snow_queen",
+    "result": "allow",
+    "healthmultiply": 7,
+    "damagemultiply": 3,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+                   {
+    "mob": "twilightforest:naga",
+    "result": "allow",
+    "healthmultiply": 10,
+    "damagemultiply": 4,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+                     {
+    "mob": "thebetweenlands:fortress_boss",
+    "result": "allow",
+    "healthmultiply": 5,
+    "damagemultiply": 4,
+	"onjoin": true
+  },
+                      {
+    "mob": "thaumcraft:eldritchwarden",
+    "result": "allow",
+    "healthmultiply": 3,
+    "damagemultiply": 4,
+	"onjoin": true
+  },
+                        {
+    "mob": "thaumcraft:eldritchgolem",
+    "result": "allow",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+	"onjoin": true
+  },
+                          {
+    "mob": "thaumcraft:cultistleader",
+    "result": "allow",
+    "healthmultiply": 7,
+    "damagemultiply": 3,
+	"onjoin": true
+  },
+                            {
+    "mob": "thaumcraft:taintaclegiant",
+    "result": "allow",
+    "healthmultiply": 8,
+    "damagemultiply": 3,
+	"onjoin": true
+  },
+                              {
+    "mob": "fossil:fossil.anu",
+    "result": "allow",
+    "healthmultiply": 8,
+    "damagemultiply": 4.5,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+                                {
+    "mob": "atum:pharaoh",
+    "result": "allow",
+    "healthmultiply": 8,
+    "damagemultiply": 4.5,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+                     {
+    "mob": "minecraft:wither",
+    "result": "allow",
+    "healthmultiply": 10,
+    "damagemultiply": 3,
+	"speedmultiply": 1,
+	"onjoin": true
+  },
+     {
+    "mob": "minecraft:ghast",
+    "result": "allow",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1
+  },
+  //增强所有交错次元怪物
+       {
+    "hostile": true,
+	"dimension": 20,
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 2
+  },
+  {
+    "mob": "minecraft:skeleton",
+	"customname": "腐朽祁手",
+    "seesky": false,
+    "result": "allow",
+    "damagemultiply": 3,
+    "armorhelmet": ["embers:ashen_cloak_head","thebetweenlands:explorers_hat"],
+	"armorchest": [,"embers:ashen_cloak_chest"],
+	"armorlegs": ["embers:ashen_cloak_legs"],
+	"armorboots": ["embers:ashen_cloak_boots"]
+  }
+  
+  
+]
