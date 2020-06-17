@@ -11,6 +11,7 @@ llibrary/*
 local/*
 logs/*
 mods/*
+playerdata/*
 opframe_cache/*
 patchouli_books/*
 resourcepacks/*
