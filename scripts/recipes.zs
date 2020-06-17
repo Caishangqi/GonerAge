@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<bloodmagic:alchemy_table>);
+recipes.remove(<bloodmagic:blood_rune>);
+recipes.remove(<bloodmagic:altar>);
 recipes.remove(<thaumcraft:plate:3>);
 recipes.remove(<thaumcraft:plate:2>);
 recipes.remove(<thaumcraft:plate>);
@@ -49,6 +52,9 @@ recipes.remove(<tconstruct:slimesling>);
 recipes.remove(<ore:plankWood>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<bloodmagic:alchemy_table>, [[<thaumcraft:stone_arcane>, <thebetweenlands:alembic>, <thaumcraft:stone_arcane>],[<thaumcraft:stone_arcane>, <embers:alchemy_tablet>, <thaumcraft:stone_arcane>], [<minecraft:gold_block>, <bloodmagic:blood_orb>, <minecraft:gold_block>]]);
+recipes.addShaped(<bloodmagic:blood_rune>, [[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>],[<bloodmagic:slate>, <bloodmagic:blood_orb>, <bloodmagic:slate>], [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]]);
+recipes.addShaped(<bloodmagic:altar>, [[<thaumcraft:stone_arcane>, null, <thaumcraft:stone_arcane>],[<thaumcraft:stone_arcane>, <bloodmagic:monster_soul>, <thaumcraft:stone_arcane>], [<minecraft:gold_block>, <thebetweenlands:sulfur_furnace>, <minecraft:gold_block>]]);
 furnace.addRecipe(<immersiveengineering:metal:24> * 4, <immersiveengineering:metal:13>, 0.18518518190830946);
 furnace.addRecipe(<immersiveengineering:metal:23> * 4, <immersiveengineering:metal:12>, 0.18518518190830946);
 furnace.addRecipe(<immersiveengineering:metal:21> * 4, <immersiveengineering:metal:10>, 0.18518518190830946);
