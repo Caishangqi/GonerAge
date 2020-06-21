@@ -1,7 +1,7 @@
 [
 {
     "mob": "minecraft:zombie",
-    "remove": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask","embers:grandhammer","embers:axe_clockwork","embers:pickaxe_clockwork"]
+    "remove": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask","embers:grandhammer","embers:axe_clockwork","embers:pickaxe_clockwork","immersiveengineering:steel_armor_chest","thaumcraft:void_robe_chest"]
   },
   {
     "mob": "minecraft:zombie",

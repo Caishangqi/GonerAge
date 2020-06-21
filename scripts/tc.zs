@@ -3,6 +3,7 @@ mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:1>);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:2>);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:3>);
 mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:4>);
+mods.jei.JEI.removeAndHide(<tconstruct:slime_boots:5>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:1>);
 mods.jei.JEI.removeAndHide(<tconstruct:slimesling:2>);

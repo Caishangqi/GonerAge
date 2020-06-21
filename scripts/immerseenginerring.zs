@@ -1,7 +1,6 @@
 # CREATED USING EXTERNAL TWEAKER
 
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:27>);
-mods.immersiveengineering.Blueprint.addRecipe("components", <techreborn:part:40> * 2, [<techreborn:plates:11> * 2, <powersuits:powerarmorcomponent> * 2, <techreborn:cable:5> * 4, <techreborn:cable:2> * 2, <ore:nuggetTin> * 4, <ore:plateCopper> * 2]);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);
 mods.immersiveengineering.Blueprint.addRecipe("components", <immersiveengineering:material:26> * 4, [<immersiveengineering:material:20> * 4, <immersiveengineering:material:8> * 2, <minecraft:redstone> * 2, <ore:plateNickel> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <powersuits:powerarmorcomponent:5> * 2, [<minecraft:clay_ball> * 4, <powersuits:powerarmorcomponent> * 2, <ore:plateTin> * 2, <techreborn:rebattery> * 2]);
@@ -9,8 +8,6 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <powersuits:powerarm
 mods.immersiveengineering.Blueprint.addRecipe("components", <powersuits:powerarmorcomponent:7> * 2, [<powersuits:powerarmorcomponent:6>, <powersuits:powerarmorcomponent> * 8, <techreborn:lapotroncrystal> * 2, <techreborn:plates:20> * 6, <techreborn:part:42> * 2, <techreborn:part:35> * 6]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <powersuits:powerarmorcomponent:8> * 2, [<powersuits:powerarmorcomponent:7> * 2, <powersuits:powerarmorcomponent:20>, <techreborn:plates:2> * 6, <ore:gemSapphire> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <techreborn:part:29>, [<techreborn:part:40>, <minecraft:redstone> * 8, <techreborn:cable:5> * 16, <ore:plateIron> * 2, <powersuits:powerarmorcomponent:5> * 2, <techreborn:part:32> * 4]);
-mods.immersiveengineering.Blueprint.addRecipe("components", <techreborn:part:41>, [<techreborn:part:40>, <powersuits:powerarmorcomponent> * 8, <techreborn:cable:6> * 6, <powersuits:powerarmorcomponent:6> * 2, <techreborn:plates:2> * 2, <minecraft:glowstone_dust> * 8]);
-mods.immersiveengineering.Blueprint.addRecipe("components", <techreborn:part:43>, [<techreborn:part:41>, <powersuits:powerarmorcomponent> * 16, <techreborn:cable:4> * 8, <powersuits:powerarmorcomponent:7> * 2, <ore:platePlatinum> * 2, <embers:archaic_circuit> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("GonerMachine", <powersuits:powerarmor_head>.withTag({MMModItem: {commonValues: {}}}), [<techreborn:plates:38> * 16, <techreborn:reinforced_glass> * 2, <powersuits:powerarmorcomponent:15> * 8, <immersiveengineering:material:9> * 10]);
 mods.immersiveengineering.Blueprint.addRecipe("GonerMachine", <powersuits:powerarmor_torso>.withTag({MMModItem: {commonValues: {}}}), [<techreborn:plates:38> * 32, <powersuits:powerarmorcomponent:15> * 10, <immersiveengineering:material:9> * 16]);
 mods.immersiveengineering.Blueprint.addRecipe("GonerMachine", <powersuits:powerarmor_legs>.withTag({MMModItem: {commonValues: {}}}), [<techreborn:plates:38> * 24, <powersuits:powerarmorcomponent:15> * 12, <immersiveengineering:material:9> * 24]);
@@ -35,3 +32,6 @@ mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_p
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <powersuits:powerarmorcomponent:18>, [<techreborn:solar_panel:3>, <techreborn:reinforced_glass> * 6, <powersuits:powerarmorcomponent:15>, <techreborn:plates:24> * 4]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <ore:sand>, <immersiveengineering:material:7>, 4000, 2048, [<minecraft:coal> * 3]);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:11>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <immersiveengineering:mold>, 2000, 1);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 1000, 2048, [<ore:bone> * 4]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 2000, 2048, [<ore:stoneMarble> * 8]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 2600, 2048, [<ore:stoneLimestone> * 12]);

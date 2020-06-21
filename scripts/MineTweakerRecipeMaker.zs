@@ -59,10 +59,10 @@ recipes.remove(<techreborn:electric_furnace>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:stone_knife>.transformDamage(2)]);
-recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:iron_knife>.transformDamage(2)]);
-recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:diamond_knife>.transformDamage(2)]);
-recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:gold_knife>.transformDamage(2)]);
+recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:stone_knife:*>.transformDamage(5)]);
+recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:iron_knife:*>.transformDamage(5)]);
+recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:diamond_knife:*>.transformDamage(5)]);
+recipes.addShapeless(<minecraft:planks>, [<ore:logWood>, <roots:gold_knife:*>.transformDamage(5)]);
 
 // ================================================================================
 //#MARKER ADD SHAPED

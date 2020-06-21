@@ -1,13 +1,12 @@
 [
 {
     "mob": "minecraft:zombie",
-    "seesky": true,
-	"minlight": 0,
-	"maxlight": 5,
+    "seesky": false,
     "result": "allow",
     "damagemultiply": 1,
     "speedmultiply": 1,
     "armorhelmet": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask"],
+	"armorchest": ["immersiveengineering:steel_armor_chest","thaumcraft:void_robe_chest"],
 	"helditem": ["embers:grandhammer","embers:axe_clockwork","embers:pickaxe_clockwork"]
   },
   {

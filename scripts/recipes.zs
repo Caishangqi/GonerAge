@@ -1,6 +1,33 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<techreborn:ingot:22>);
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+recipes.remove(<immersiveengineering:metal_decoration0:6>);
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.remove(<immersiveengineering:metal_decoration0:3>);
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "GonerMachine"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "generator"}));
+recipes.remove(<storagedrawers:upgrade_redstone:2>);
+recipes.remove(<storagedrawers:upgrade_redstone:1>);
+recipes.remove(<storagedrawers:upgrade_redstone>);
+recipes.remove(<storagedrawers:upgrade_conversion>);
+recipes.remove(<storagedrawers:upgrade_void>);
+recipes.remove(<storagedrawers:upgrade_status:1>);
+recipes.remove(<storagedrawers:upgrade_status>);
+recipes.remove(<storagedrawers:upgrade_one_stack>);
+recipes.remove(<storagedrawers:upgrade_storage:4>);
+recipes.remove(<storagedrawers:upgrade_storage:3>);
+recipes.remove(<storagedrawers:upgrade_storage:2>);
+recipes.remove(<storagedrawers:upgrade_storage:1>);
+recipes.remove(<storagedrawers:upgrade_storage>);
+recipes.remove(<storagedrawers:upgrade_template>);
 recipes.remove(<bloodmagic:alchemy_table>);
 recipes.remove(<bloodmagic:blood_rune>);
 recipes.remove(<bloodmagic:altar>);
@@ -52,6 +79,17 @@ recipes.remove(<tconstruct:slimesling>);
 recipes.remove(<ore:plankWood>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<artisanautomation:upgrade_tool_repair>, [[<ore:plateLead>, <embers:isolated_materia>, <ore:plateLead>],[<ore:plateLead>, <minecraft:anvil>, <ore:plateLead>], [<ore:plateLead>, <embers:isolated_materia>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_fluids>, [[<ore:plateLead>, <engineersdecor:straight_pipe_valve_redstone>, <ore:plateLead>],[<ore:plateLead>, <artisanautomation:upgrade_auto_import_items>, <ore:plateLead>], [<ore:plateLead>, <engineersdecor:straight_pipe_valve_redstone>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_export_items>, [[<ore:plateLead>, <artisanautomation:upgrade_auto_import_items>, <ore:plateLead>],[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>], [<ore:plateLead>, <artisanautomation:upgrade_auto_export_items>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_import_items>, [[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>],[<ore:plateLead>, <engineersdecor:factory_hopper>, <ore:plateLead>], [<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_auto_export_items>, [[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>],[<ore:plateLead>, <immersiveengineering:conveyor>, <ore:plateLead>], [<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_energy_capacity>, [[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>],[<ore:plateLead>, <techreborn:rebattery>, <ore:plateLead>], [<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_fluid_capacity>, [[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>],[<ore:plateLead>, <embers:large_tank>, <ore:plateLead>], [<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>]]);
+recipes.addShaped(<artisanautomation:upgrade_speed>, [[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>],[<ore:plateLead>, <thaumcraft:mechanism_simple>, <ore:plateLead>], [<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>]]);
+recipes.addShaped(<artisanworktables:workshop:1>, [[<ore:plankTreatedWood>, <artisanworktables:artisans_framing_hammer_iron>, <ore:plankTreatedWood>],[<ore:chest>, <artisanworktables:worktable:5>, <ore:chest>], [<ore:fenceTreatedWood>, null, <ore:fenceTreatedWood>]]);
+recipes.addShaped(<artisanworktables:worktable:5>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<ore:plankWood>, <ore:crafterWood>, <ore:plankWood>], [<ore:fenceTreatedWood>, <ore:chest>, <ore:fenceTreatedWood>]]);
+recipes.addShaped(<artisanworktables:workstation:5>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],[<ore:plankTreatedWood>, <minecraft:crafting_table>, <ore:plankTreatedWood>], [<immersiveengineering:material:8>, <minecraft:anvil>, <immersiveengineering:material:8>]]);
 recipes.addShaped(<bloodmagic:alchemy_table>, [[<thaumcraft:stone_arcane>, <thebetweenlands:alembic>, <thaumcraft:stone_arcane>],[<thaumcraft:stone_arcane>, <embers:alchemy_tablet>, <thaumcraft:stone_arcane>], [<minecraft:gold_block>, <bloodmagic:blood_orb>, <minecraft:gold_block>]]);
 recipes.addShaped(<bloodmagic:blood_rune>, [[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>],[<bloodmagic:slate>, <bloodmagic:blood_orb>, <bloodmagic:slate>], [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]]);
 recipes.addShaped(<bloodmagic:altar>, [[<thaumcraft:stone_arcane>, null, <thaumcraft:stone_arcane>],[<thaumcraft:stone_arcane>, <bloodmagic:monster_soul>, <thaumcraft:stone_arcane>], [<minecraft:gold_block>, <thebetweenlands:sulfur_furnace>, <minecraft:gold_block>]]);
