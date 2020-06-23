@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<tconstruct:smeltery_io>);
+recipes.remove(<tconstruct:tinker_tank_controller>);
+recipes.remove(<tconstruct:casting:1>);
 recipes.remove(<techreborn:ingot:22>);
 recipes.remove(<immersiveengineering:metal_decoration0:7>);
 recipes.remove(<immersiveengineering:metal_decoration0:6>);
@@ -69,6 +72,7 @@ furnace.remove(<embers:ingot_lead>, <embers:ore_lead>);
 furnace.remove(<embers:ingot_copper>, <embers:ore_copper>);
 furnace.remove(<embers:ingot_tin>, <embers:ore_tin>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
+furnace.remove(<tconstruct:materials>, <tconstruct:soil>);
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 recipes.remove(<tconstruct:throwball:1>);
 recipes.remove(<tconstruct:slimesling:4>);
@@ -79,6 +83,8 @@ recipes.remove(<tconstruct:slimesling>);
 recipes.remove(<ore:plankWood>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<tconstruct:smeltery_io>, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],[<tconstruct:materials>, <embers:mech_accessor>, <embers:mechanical_pump>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
+recipes.addShaped(<tconstruct:tinker_tank_controller>, [[<tconstruct:materials>, <embers:mech_core>, <tconstruct:materials>],[<embers:mech_accessor>, <embers:block_tank>, <embers:mech_accessor>], [<tconstruct:materials>, <embers:mechanical_pump>, <tconstruct:materials>]]);
 recipes.addShaped(<artisanautomation:upgrade_tool_repair>, [[<ore:plateLead>, <embers:isolated_materia>, <ore:plateLead>],[<ore:plateLead>, <minecraft:anvil>, <ore:plateLead>], [<ore:plateLead>, <embers:isolated_materia>, <ore:plateLead>]]);
 recipes.addShaped(<artisanautomation:upgrade_auto_import_fluids>, [[<ore:plateLead>, <engineersdecor:straight_pipe_valve_redstone>, <ore:plateLead>],[<ore:plateLead>, <artisanautomation:upgrade_auto_import_items>, <ore:plateLead>], [<ore:plateLead>, <engineersdecor:straight_pipe_valve_redstone>, <ore:plateLead>]]);
 recipes.addShaped(<artisanautomation:upgrade_auto_import_export_items>, [[<ore:plateLead>, <artisanautomation:upgrade_auto_import_items>, <ore:plateLead>],[<ore:plateLead>, <immersiveengineering:material:9>, <ore:plateLead>], [<ore:plateLead>, <artisanautomation:upgrade_auto_export_items>, <ore:plateLead>]]);

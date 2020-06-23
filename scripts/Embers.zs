@@ -15,3 +15,6 @@ mods.embers.Melter.add(<liquid:osram_fluid> * 72, <taiga:osram_ore>);
 mods.embers.Melter.add(<liquid:eezo_fluid> * 72, <taiga:eezo_ore>);
 mods.embers.Melter.add(<liquid:abyssum_fluid> * 72, <taiga:abyssum_ore>);
 mods.embers.Melter.add(<liquid:dilithium_fluid> * 72, <taiga:dilithium_ore>);
+//增加匠魂梦幻联动
+mods.embers.Melter.add(<liquid:stone> *144,<tconstruct:soil>);
+mods.embers.Stamper.add(<tconstruct:materials>,<liquid:stone>* 144,<embers:stamp_bar>,null);
