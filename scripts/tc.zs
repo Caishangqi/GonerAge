@@ -12,7 +12,6 @@ mods.jei.JEI.removeAndHide(<tconstruct:slimesling:4>);
 mods.jei.JEI.removeAndHide(<tconstruct:throwball:1>);
 mods.jei.JEI.removeAndHide(<tconstruct:smeltery_controller>);
 mods.jei.JEI.removeAndHide(<tconstruct:materials>);
-mods.jei.JEI.removeAndHide(<tconstruct:tinker_tank_controller>);
 mods.jei.JEI.removeAndHide(<techreborn:diesel_generator>);
 mods.jei.JEI.removeAndHide(<techreborn:solid_fuel_generator>);
 mods.jei.JEI.removeAndHide(<techreborn:wind_mill>);
