@@ -3,9 +3,9 @@ RecipeBuilder.get("carpenter")
   .setShaped([
     [<ore:logWood>, <ore:logWood>, <ore:logWood>]])
   .addTool(<ore:artisansHandsaw>, 5)
-  .addOutput(<minecraft:planks> * 32)
+  .addOutput(<minecraft:planks> * 16)
   .create();
-      
+
 RecipeBuilder.get("basic")
   .setShaped([
     [<immersiveengineering:material:8>, <ore:paneGlass>, <immersiveengineering:material:8>],
@@ -15,7 +15,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHammer>, 1)
   .addOutput(<artisanworktables:workstation:3>)
   .create()
-  
+
   .setShaped([
     [<ore:plankTreatedWood>, <storagedrawers:basicdrawers>.withTag({material: "oak"}), <ore:plankTreatedWood>],
     [<immersiveengineering:material:8>, <ore:workbench>, <immersiveengineering:material:8>],
@@ -24,7 +24,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansCutters>, 1)
   .addOutput(<artisanworktables:workshop:5>)
   .create()
-  
+
   .setShaped([
     [<ore:plankTreatedWood>, <minecraft:paper>, <ore:plankTreatedWood>],
     [<ore:plankTreatedWood>, <minecraft:crafting_table>, <ore:plankTreatedWood>],
@@ -33,8 +33,8 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 1)
   .addOutput(<artisanworktables:worktable:12>)
   .create();
-  
-  
+
+
 RecipeBuilder.get("blacksmith")
   .setShaped([
     [<ore:chest>, <immersiveengineering:treated_wood>, <ore:chest>],
@@ -45,7 +45,7 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<storagedrawers:upgrade_template>)
   .setExtraOutputOne(<minecraft:planks>, 0.2)
   .create()
-  
+
   .setShaped([
     [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
     [<immersiveengineering:material:8>, <storagedrawers:upgrade_template>, <immersiveengineering:material:8>],
@@ -55,7 +55,7 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<storagedrawers:upgrade_storage>)
   .setExtraOutputOne(<techreborn:dust:35>, 0.2)
   .create()
-  
+
   .setShaped([
     [<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>],
     [<storagedrawers:upgrade_storage>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage>],
@@ -65,7 +65,7 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<storagedrawers:upgrade_storage:1>)
   .setExtraOutputOne(<immersiveengineering:metal:18>, 0.5)
   .create()
-  
+
   .setShaped([
     [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
     [<storagedrawers:upgrade_storage:1>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:1>],
@@ -85,7 +85,7 @@ RecipeBuilder.get("blacksmith")
   .setFluid(<liquid:water> * 250)
   .setExtraOutputOne(<techreborn:dust:16>, 0.7)
   .create()
-  
+
   .setShaped([
     [<ore:ingotDilithium>, <ore:ingotDilithium>, <ore:ingotDilithium>],
     [<storagedrawers:upgrade_storage:3>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_storage:3>],
@@ -94,7 +94,7 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<storagedrawers:upgrade_storage:4>)
   .setExtraOutputOne(<taiga:dilithium_crystal>, 1.0)
   .create()
-  
+
   .setShaped([
     [<ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>],
     [<embers:bin>, <storagedrawers:upgrade_template>, <embers:bin>],
@@ -112,7 +112,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansTSquare>, 1)
   .addOutput(<storagedrawers:upgrade_status>)
   .create()
-  
+
   .setShaped([
     [<immersiveengineering:material:8>, <minecraft:repeater>, <immersiveengineering:material:8>],
     [<techreborn:lithiumbattery>, <storagedrawers:upgrade_status>, <techreborn:lithiumbattery>],
@@ -121,7 +121,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansTSquare>, 1)
   .addOutput(<storagedrawers:upgrade_status:1>)
   .create()
-  
+
   .setShaped([
     [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],
     [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <storagedrawers:upgrade_template>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})],
@@ -139,7 +139,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCarver>, 1)
   .addOutput(<storagedrawers:upgrade_conversion>)
   .create()
-  
+
   .setShaped([
     [<minecraft:repeater>, <ore:chest>, <minecraft:repeater>],
     [<techreborn:part:29>, <storagedrawers:upgrade_template>, <techreborn:part:29>],
@@ -148,7 +148,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCarver>, 1)
   .addOutput(<storagedrawers:upgrade_redstone>)
   .create()
-  
+
   .setShaped([
     [<techreborn:part:32>, <techreborn:part:32>, <techreborn:part:32>],
     [<ore:plateIron>, <storagedrawers:upgrade_redstone>, <ore:plateIron>],
@@ -157,7 +157,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCarver>, 1)
   .addOutput(<storagedrawers:upgrade_redstone:1>)
   .create()
-  
+
   .setShaped([
     [<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>],
     [<ore:plateIron>, <storagedrawers:upgrade_redstone>, <ore:plateIron>],
@@ -166,7 +166,7 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansCarver>, 1)
   .addOutput(<storagedrawers:upgrade_redstone:2>)
   .create();
- 
+
 RecipeBuilder.get("designer")
   .setShaped([
     [<minecraft:redstone>, <ore:artisansTSquare>, <ore:feather>],
@@ -175,7 +175,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
   .create();
-  
+
 RecipeBuilder.get("basic")
   .setShaped([
     [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
@@ -189,7 +189,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansTSquare>, 10)
   .addOutput(<artisanworktables:workshop:12>)
   .create()
-  
+
   .setShaped([
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:reBattery>, <ore:drawerBasic>, <embers:mech_core>, <ore:drawerBasic>, <ore:reBattery>],
@@ -202,7 +202,7 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansSpanner>, 1)
   .addOutput(<artisanworktables:workshop:6>)
   .create();
-  
+
 RecipeBuilder.get("designer")
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
@@ -216,7 +216,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -229,7 +229,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -242,7 +242,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -255,7 +255,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -268,7 +268,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "GonerMachine"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -281,7 +281,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "generator"}))
   .create()
-  
+
   .setShaped([
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>],
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
@@ -294,8 +294,8 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "SolarPannel"}))
   .create();
-  
-  
+
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
@@ -322,7 +322,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansCutters>, 1)
   .addOutput(<immersiveengineering:metal_decoration0:5> * 2)
   .create()
-  
+
   .setShaped([
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateElectrum>, <immersiveengineering:material:9>, <ore:plateSteel>],
@@ -348,7 +348,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansCutters>, 1)
   .addOutput(<immersiveengineering:metal_decoration0:3> * 4)
   .create();
-  
+
   RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
@@ -362,7 +362,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansCutters>, 1)
   .addOutput(<immersiveengineering:metal_decoration0:6> * 2)
   .create()
-  
+
   .setShaped([
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateBronze>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateBronze>, <immersiveengineering:material:9>, <ore:plateSteel>],
@@ -386,7 +386,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_solderer_tin>, 1)
   .addOutput(<techreborn:part:40> * 2)
   .create();
-  
+
   RecipeBuilder.get("engineer")
   .setShaped([
     [null, <techreborn:cable:6>, <ore:dustGlowstone>, <ore:dustGlowstone>, <techreborn:cable:6>],
@@ -398,7 +398,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_solderer_tin>, 1)
   .addOutput(<techreborn:part:41> * 2)
   .create()
-  
+
   .setShaped([
     [<ore:componentWiring>, <ore:componentWiring>, <ore:platePlatinum>, <ore:componentWiring>, <ore:componentWiring>],
     [<techreborn:cable:4>, <ore:plateCarbon>, <powersuits:powerarmorcomponent:7>, <ore:plateCarbon>, <techreborn:cable:4>],
@@ -421,7 +421,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansHammer>, 1)
   .addOutput(<techreborn:ingot:22> * 3)
   .create()
-  
+
   .setShaped([
     [<ore:plankTreatedWood>, <ore:plateDawnstone>, <embers:winding_gears>, <ore:plateDawnstone>, <ore:plankTreatedWood>],
     [<ore:paneGlassColorless>, <immersiveengineering:metal_decoration0>, <techreborn:energycrystal>, <immersiveengineering:metal_decoration0>, <ore:paneGlassColorless>],
@@ -433,7 +433,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 1)
   .addOutput(<artisanautomation:automator_power_rf>)
   .create()
-  
+
   .setShaped([
     [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],
     [<ore:paneGlassColorless>, null, null, null, <ore:paneGlassColorless>],
