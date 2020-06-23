@@ -101,6 +101,7 @@ furnace.addRecipe(<immersiveengineering:metal:22> * 4, <immersiveengineering:met
 furnace.addRecipe(<immersiveengineering:metal:25> * 4, <immersiveengineering:metal:14>, 0.18518518190830946);
 furnace.addRecipe(<minecraft:gold_nugget> * 4, <immersiveengineering:metal:19>, 0.18518518190830946);
 furnace.addRecipe(<minecraft:iron_nugget> * 4, <immersiveengineering:metal:18>, 0.18518518190830946);
+recipes.addShapeless(<techreborn:dust:32>, [<immersiveengineering:tool>.reuse(),<ore:stoneMarble>,<ore:stoneMarble>]);
 recipes.addShapeless(<immersiveengineering:metal:30>, [<immersiveengineering:tool>.reuse(),<immersiveengineering:metal>,<immersiveengineering:metal>]);
 recipes.addShapeless(<immersiveengineering:metal:31>, [<immersiveengineering:tool>.reuse(),<immersiveengineering:metal:1>,<immersiveengineering:metal:1>]);
 recipes.addShapeless(<immersiveengineering:metal:32>, [<immersiveengineering:tool>.reuse(),<immersiveengineering:metal:2>,<immersiveengineering:metal:2>]);
