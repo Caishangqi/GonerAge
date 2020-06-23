@@ -30,8 +30,8 @@ mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_p
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_panel:3>, [<techreborn:solar_panel:2> * 8, <techreborn:hv_transformer>, <techreborn:part> * 2, <techreborn:machine_casing:1>, <powersuits:powerarmorcomponent> * 16, <techreborn:plates:20> * 8]);
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_panel:4>, [<techreborn:solar_panel:3> * 4, <techreborn:ev_transformer>, <powersuits:powerarmorcomponent:8> * 4, <techreborn:machine_casing:2>, <powersuits:powerarmorcomponent:15> * 2, <techreborn:plates:38> * 4, <techreborn:reinforced_glass> * 8, <techreborn:cable:8> * 2]);
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <powersuits:powerarmorcomponent:18>, [<techreborn:solar_panel:3>, <techreborn:reinforced_glass> * 6, <powersuits:powerarmorcomponent:15>, <techreborn:plates:24> * 4]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <ore:sand>, <immersiveengineering:material:7>, 4000, 2048, [<minecraft:coal> * 3]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <ore:sand>, <immersiveengineering:material:7>, 1600, 2048, [<minecraft:coal> * 3]);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:11>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <immersiveengineering:mold>, 2000, 1);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 1000, 2048, [<ore:bone> * 4]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 2000, 2048, [<ore:stoneMarble> * 8]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <ore:oreIron>, <immersiveengineering:material:7>, 2600, 2048, [<ore:stoneLimestone> * 12]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <techreborn:dust:32>, <immersiveengineering:material:7>, 800, 2048, [<ore:oreIron> * 6]);
+//增加大理石粉末配方
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble>, 1024, <taiga:valyrium_dust>, 0.005);
