@@ -22,7 +22,7 @@ mods.immersiveengineering.DieselHandler.addFuel(<liquid:fluidnitrodiesel>, 4000)
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:fluidnitrofuel>, 3000);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:fluidnitrocoalfuel>, 2500);
 mods.immersiveengineering.Excavator.addMineral("Niobium ", 30, 0.005, ["oreBioshar", "oreNiobium", "oreBone"], [60, 30, 20], [69]);
-mods.immersiveengineering.Excavator.addMineral("ÎÙ¿óÂö", 10, 0.05, ["oreTungsten", "oreSheldonite", "oreIron", "oreSphalerite"], [60, 10, 20, 10], [0]);
+mods.immersiveengineering.Excavator.addMineral("ï¿½Ù¿ï¿½ï¿½ï¿½", 10, 0.05, ["oreTungsten", "oreSheldonite", "oreIron", "oreSphalerite"], [60, 10, 20, 10], [0]);
 mods.immersiveengineering.Excavator.addMineral("Acientwood", 10, 0.09, ["oreSand", "oreAcientwood", "oreAmber"], [55, 45, 5]);
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_panel>, [<techreborn:machine_frame>, <ore:paneGlass> * 8, <techreborn:part:29> * 2, <ore:dustCharcoal> * 8, <powersuits:powerarmorcomponent> * 16, <immersiveengineering:material:8> * 8, <techreborn:plates:11> * 6, <embers:shard_ember> * 4]);
 mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <techreborn:solar_panel:1>, [<techreborn:solar_panel> * 8, <techreborn:lv_transformer>, <techreborn:part:29> * 2, <techreborn:plates:2> * 8, <powersuits:powerarmorcomponent> * 16, <immersiveengineering:material:8> * 8]);
@@ -33,5 +33,5 @@ mods.immersiveengineering.Blueprint.addRecipe("SolarPannel", <powersuits:powerar
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <ore:sand>, <immersiveengineering:material:7>, 1600, 2048, [<minecraft:coal> * 3]);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:11>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsilicon", Amount: 1000}}), <immersiveengineering:mold>, 2000, 1);
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <techreborn:dust:32>, <immersiveengineering:material:7>, 800, 2048, [<ore:oreIron> * 6]);
-//Ôö¼Ó´óÀíÊ¯·ÛÄ©Åä·½
-mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble>, 1024, <taiga:valyrium_dust>, 0.005);
+//ï¿½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½Ê¯ï¿½ï¿½Ä©ï¿½ä·½
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble> * 2, 1024, <taiga:valyrium_dust>, 0.003);
