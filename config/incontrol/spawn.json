@@ -1,8 +1,28 @@
 [
 {
+	"mob": ["minecraft:creeper", "minecraft:skeleton"],
+	"healthmultiply": 1,
+	"result": "allow"
+
+
+},
+//增强所有主世界敌对生物
+{
+    "hostile": true,
+    "result": "allow",
+	"healthmultiply": 2.5,
+	"damagemultiply": 3,
+	"dimension": 0,
+	"speedmultiply": 1
+  },
+  
+
+
+{
     "mob": "minecraft:zombie",
     "seesky": false,
     "result": "allow",
+	"healthmultiply": 2,
     "damagemultiply": 1,
     "speedmultiply": 1,
     "armorhelmet": ["immersiveengineering:steel_armor_head","thaumcraft:void_robe_helm","thebetweenlands:spirit_tree_face_large_mask"],
@@ -155,7 +175,15 @@
     "hostile": true,
 	"dimension": 20,
     "result": "allow",
-    "healthmultiply": 2.5,
+    "healthmultiply": 3,
+    "damagemultiply": 2
+  },
+  //增强所有暮色怪物
+       {
+    "hostile": true,
+	"dimension": 7,
+    "result": "allow",
+    "healthmultiply": 3,
     "damagemultiply": 2
   },
   {
@@ -168,6 +196,12 @@
 	"armorchest": [,"embers:ashen_cloak_chest"],
 	"armorlegs": ["embers:ashen_cloak_legs"],
 	"armorboots": ["embers:ashen_cloak_boots"]
+  },
+         {
+    "hostile": true,
+    "result": "allow",
+    "healthmultiply": 2,
+    "damagemultiply": 2
   }
   
   

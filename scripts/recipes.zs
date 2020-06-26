@@ -1,6 +1,23 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<techreborn:matter_fabricator>);
+recipes.remove(<techreborn:matter_fabricator>);
+recipes.remove(<techreborn:lapotronic_su>);
+recipes.remove(<techreborn:lsu_storage>);
+recipes.remove(<techreborn:fusion_control_computer>);
+recipes.remove(<immersiveengineering:metal_device1:3>);
+recipes.remove(<immersiveengineering:metal_device1:3>);
+recipes.remove(<techreborn:adjustable_su>);
+recipes.remove(<techreborn:interdimensional_su>);
+recipes.remove(<techreborn:high_voltage_su>);
+recipes.remove(<techreborn:medium_voltage_su>);
+recipes.remove(<techreborn:low_voltage_su>);
+recipes.remove(<techreborn:lithiumbattery>);
+recipes.remove(<techreborn:rebattery>);
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.remove(<immersiveengineering:metal_device0>);
 recipes.remove(<immersivetech:connectors>);
 recipes.remove(<tconstruct:smeltery_io>);
 recipes.remove(<tconstruct:tinker_tank_controller>);

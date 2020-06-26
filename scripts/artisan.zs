@@ -211,9 +211,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
   .create()
 
@@ -224,9 +224,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
   .create()
 
@@ -237,9 +237,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
   .create()
 
@@ -250,9 +250,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
   .create()
 
@@ -263,9 +263,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "GonerMachine"}))
   .create()
 
@@ -276,9 +276,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "generator"}))
   .create()
 
@@ -289,9 +289,9 @@ RecipeBuilder.get("designer")
     [<ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:paper>],
     [<ore:dustRedstone>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:dustRedstone>]])
   .setFluid(<liquid:creosote> * 3000)
-  .addTool(<ore:artisansLens>, 1)
-  .addTool(<ore:artisansTSquare>, 1)
-  .addTool(<ore:artisansPencil>, 1)
+  .addTool(<ore:artisansLens>, 15)
+  .addTool(<ore:artisansTSquare>, 15)
+  .addTool(<ore:artisansPencil>, 15)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "SolarPannel"}))
   .create();
 
@@ -304,9 +304,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateIron>, <immersiveengineering:material:8>, <ore:itemRubber>, <immersiveengineering:material:8>, <ore:plateIron>],
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
   .setFluid(<liquid:iron> * 2000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:4> * 2)
   .create()
 
@@ -317,9 +317,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateElectrum>, <immersiveengineering:material:9>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:iron> * 2000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:5> * 2)
   .create()
 
@@ -330,9 +330,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateElectrum>, <immersiveengineering:material:9>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:steel> * 2000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:5> * 2)
   .create()
 
@@ -343,9 +343,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateIron>, <immersiveengineering:material:8>, <ore:blockRedstone>, <immersiveengineering:material:8>, <ore:plateIron>],
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>]])
   .setFluid(<liquid:iron> * 2000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:3> * 4)
   .create();
 
@@ -357,9 +357,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <immersiveengineering:material:9>, <immersiveengineering:metal_decoration0>, <immersiveengineering:material:9>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:steel> * 1000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:6> * 2)
   .create()
 
@@ -370,9 +370,9 @@ RecipeBuilder.get("engineer")
     [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateBronze>, <immersiveengineering:material:9>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateBronze>, <ore:plateSteel>, <ore:plateSteel>]])
   .setFluid(<liquid:iron> * 1000)
-  .addTool(<ore:artisansBurner>, 1)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
+  .addTool(<ore:artisansBurner>, 15)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansCutters>, 15)
   .addOutput(<immersiveengineering:metal_decoration0:7> * 2)
   .create()
 
@@ -383,7 +383,7 @@ RecipeBuilder.get("engineer")
     [<ore:plateSilicon>, <techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>, <ore:plateSilicon>],
     [<ore:plateCopper>, <ore:plateCopper>, <techreborn:cable:2>, <powersuits:powerarmorcomponent:5>, <ore:plateCopper>]])
   .setFluid(<liquid:tin> * 250)
-  .addTool(<artisanworktables:artisans_solderer_tin>, 1)
+  .addTool(<artisanworktables:artisans_solderer_tin>, 15)
   .addOutput(<techreborn:part:40> * 2)
   .create();
 
@@ -395,7 +395,7 @@ RecipeBuilder.get("engineer")
     [<ore:componentWiring>, <ore:plateCarbon>, <ore:plateCarbon>, <powersuits:powerarmorcomponent:6>, <ore:componentWiring>],
     [<techreborn:cable:6>, <ore:dustGlowstone>, <ore:dustGlowstone>, <techreborn:cable:6>, null]])
   .setFluid(<liquid:tin> * 250)
-  .addTool(<artisanworktables:artisans_solderer_tin>, 1)
+  .addTool(<artisanworktables:artisans_solderer_tin>, 15)
   .addOutput(<techreborn:part:41> * 2)
   .create()
 
@@ -406,7 +406,7 @@ RecipeBuilder.get("engineer")
     [<techreborn:cable:4>, <ore:plateCarbon>, <powersuits:powerarmorcomponent:7>, <ore:plateCarbon>, <techreborn:cable:4>],
     [<ore:componentWiring>, <ore:componentWiring>, <ore:platePlatinum>, <ore:componentWiring>, <ore:componentWiring>]])
   .setFluid(<liquid:tin> * 1000)
-  .addTool(<artisanworktables:artisans_solderer_tin>, 1)
+  .addTool(<artisanworktables:artisans_solderer_tin>, 15)
   .addOutput(<techreborn:part:43>)
   .create()
 
@@ -417,8 +417,8 @@ RecipeBuilder.get("engineer")
     [<ore:plateIridium>, <ore:plateIridium>, <ore:plateIridium>, <ore:plateIridium>, <ore:plateIridium>],
     [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>]])
   .setFluid(<liquid:abyssum_fluid> * 144)
-  .addTool(<ore:artisansBeaker>, 1)
-  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansBeaker>, 15)
+  .addTool(<ore:artisansHammer>, 15)
   .addOutput(<techreborn:ingot:22> * 3)
   .create()
 
@@ -428,10 +428,23 @@ RecipeBuilder.get("engineer")
     [<ore:paneGlassColorless>, <ore:plateCopper>, <embers:wildfire_core>, <ore:plateCopper>, <ore:paneGlassColorless>],
     [<ore:paneGlassColorless>, <immersiveengineering:metal_decoration0>, <techreborn:energycrystal>, <immersiveengineering:metal_decoration0>, <ore:paneGlassColorless>],
     [<ore:plankTreatedWood>, <ore:plateDawnstone>, <ore:plateDawnstone>, <ore:plateDawnstone>, <ore:plankTreatedWood>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansDriver>, 1)
-  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
   .addOutput(<artisanautomation:automator_power_rf>)
+  .create()
+  
+  .setShaped([
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+    [<techreborn:cable:5>, <ore:plateCopper>, <ore:materialRubber>, <ore:plateCopper>, <techreborn:cable:5>],
+    [<ore:reBattery>, <ore:reBattery>, <ore:reBattery>, <ore:reBattery>, <ore:reBattery>],
+    [<techreborn:cable:5>, <ore:plateCopper>, <ore:materialRubber>, <ore:plateCopper>, <techreborn:cable:5>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
+  .setFluid(<liquid:creosote> * 2000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<immersiveengineering:metal_device0>)
   .create()
 
   .setShaped([
@@ -440,8 +453,170 @@ RecipeBuilder.get("engineer")
     [<ore:paneGlassColorless>, <immersiveengineering:toolupgrade:2>, null, <bibliocraft:bibliodrill>, <ore:paneGlassColorless>],
     [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <embers:winding_gears>, <immersiveengineering:material:9>, <ore:plankTreatedWood>],
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <embers:charger>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
-  .addTool(<ore:artisansCutters>, 1)
-  .addTool(<ore:artisansDriver>, 1)
-  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansCutters>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
   .addOutput(<artisanautomation:automator>)
+  .create()
+
+  .setShaped([
+    [null, <techreborn:cable:5>, null, <techreborn:cable:5>, null],
+    [<ore:plateTin>, <ore:stickIron>, <ore:materialRubber>, <ore:stickAluminum>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:stickIron>, <ore:componentWiring>, <ore:stickAluminum>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:stickIron>, <ore:componentWiring>, <ore:stickAluminum>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:stickIron>, <ore:materialRubber>, <ore:stickAluminum>, <ore:plateTin>]])
+  .setFluid(<liquid:iron> * 1000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:rebattery>)
+  .create()
+  
+  .setShaped([
+    [null, <techreborn:cable:7>, null, <techreborn:cable:7>, null],
+    [<ore:plateTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}}), <ore:materialRubber>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}}), <ore:plateTin>],
+    [<ore:plateTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}}), <ore:componentWiring>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}}), <ore:plateTin>],
+    [<ore:plateTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}}), <ore:componentWiring>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}}), <ore:plateTin>],
+    [<ore:plateTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}}), <ore:materialRubber>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}}), <ore:plateTin>]])
+  .setFluid(<liquid:tin> * 1000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:lithiumbattery>)
+  .create()
+  
+  .setShaped([
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+    [<ore:materialRubber>, <ore:reBattery>, <ore:insulatedGoldCableItem>, <ore:reBattery>, <ore:materialRubber>],
+    [<ore:reBattery>, <techreborn:part:40>, <immersiveengineering:metal_device0>, <techreborn:part:40>, <ore:reBattery>],
+    [<ore:materialRubber>, <ore:reBattery>, <ore:insulatedGoldCableItem>, <ore:reBattery>, <ore:materialRubber>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<immersiveengineering:metal_device0:1>)
+  .create()
+  
+  .setShaped([
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+    [<ore:materialRubber>, <techreborn:lithiumbattery>, <techreborn:cable:7>, <techreborn:lithiumbattery>, <ore:materialRubber>],
+    [<techreborn:lithiumbattery>, <techreborn:part:29>, <immersiveengineering:metal_device0:1>, <techreborn:part:29>, <techreborn:lithiumbattery>],
+    [<ore:materialRubber>, <techreborn:lithiumbattery>, <techreborn:cable:7>, <techreborn:lithiumbattery>, <ore:materialRubber>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<immersiveengineering:metal_device0:2>)
+  .create()
+  
+  .setShaped([
+    [<ore:plankWood>, <ore:plankWood>, <techreborn:cable:5>, <ore:plankWood>, <ore:plankWood>],
+    [<techreborn:cable:5>, <ore:plateCopper>, <ore:materialRubber>, <ore:plateCopper>, <techreborn:cable:5>],
+    [<ore:reBattery>, <ore:reBattery>, <ore:reBattery>, <ore:reBattery>, <ore:reBattery>],
+    [<techreborn:cable:5>, <ore:plateCopper>, <ore:materialRubber>, <ore:plateCopper>, <techreborn:cable:5>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]])
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:low_voltage_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>],
+    [<ore:energyCrystal>, <ore:energyCrystal>, <techreborn:part:29>, <ore:energyCrystal>, <ore:energyCrystal>],
+    [<ore:energyCrystal>, <ore:insulatedGoldCableItem>, <techreborn:machine_frame>, <ore:insulatedGoldCableItem>, <ore:energyCrystal>],
+    [<ore:energyCrystal>, <ore:energyCrystal>, <techreborn:part:29>, <ore:energyCrystal>, <ore:energyCrystal>],
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>]])
+  .setFluid(<liquid:iron> * 1000)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:medium_voltage_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
+    [<ore:lapotronCrystal>, <techreborn:machine_frame:1>, <techreborn:part:30>, <techreborn:machine_frame:1>, <ore:lapotronCrystal>],
+    [<ore:lapotronCrystal>, <ore:lapotronCrystal>, <techreborn:medium_voltage_su>, <ore:lapotronCrystal>, <ore:lapotronCrystal>],
+    [<ore:lapotronCrystal>, <techreborn:machine_frame:1>, <techreborn:part:30>, <techreborn:machine_frame:1>, <ore:lapotronCrystal>],
+    [<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>]])
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:high_voltage_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>],
+    [<techreborn:lapotronicorb>, <techreborn:machine_frame:1>, <techreborn:part:30>, <techreborn:machine_frame:1>, <techreborn:lapotronicorb>],
+    [<techreborn:lapotronicorb>, <techreborn:part:43>, <techreborn:high_voltage_su>, <techreborn:part:43>, <techreborn:lapotronicorb>],
+    [<techreborn:lapotronicorb>, <techreborn:machine_frame:1>, <techreborn:part:30>, <techreborn:machine_frame:1>, <techreborn:lapotronicorb>],
+    [<ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>]])
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:adjustable_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>],
+    [<ore:plateIridiumAlloy>, <techreborn:adjustable_su>, <techreborn:part:30>, <techreborn:adjustable_su>, <ore:plateIridiumAlloy>],
+    [<ore:plateIridiumAlloy>, <ore:circuitMaster>, <ore:chestEnder>, <ore:circuitMaster>, <ore:plateIridiumAlloy>],
+    [<ore:plateIridiumAlloy>, <techreborn:adjustable_su>, <techreborn:part:30>, <techreborn:adjustable_su>, <ore:plateIridiumAlloy>],
+    [<ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>, <ore:plateIridiumAlloy>]])
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansSolderer>, 15)
+  .addOutput(<techreborn:interdimensional_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>],
+    [<ore:blockLapis>, <ore:blockLapis>, <ore:insulatedGoldCableItem>, <ore:blockLapis>, <ore:blockLapis>],
+    [<ore:blockLapis>, <ore:blockLapis>, <techreborn:part:29>, <ore:blockLapis>, <ore:blockLapis>],
+    [<ore:blockLapis>, <ore:blockLapis>, <ore:insulatedGoldCableItem>, <ore:blockLapis>, <ore:blockLapis>],
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>]])
+  .addTool(<artisanworktables:artisans_driver_bronze>, 15)
+  .addTool(<artisanworktables:artisans_spanner_bronze>, 15)
+  .addTool(<artisanworktables:artisans_solderer_bronze>, 15)
+  .addOutput(<techreborn:lsu_storage>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>],
+    [<techreborn:part:30>, <techreborn:cable:6>, <techreborn:cable:6>, <techreborn:cable:6>, <techreborn:part:30>],
+    [<techreborn:lv_transformer>, <techreborn:lsu_storage>, <techreborn:lsu_storage>, <techreborn:lsu_storage>, <techreborn:mv_transformer>],
+    [<techreborn:part:30>, <techreborn:cable:6>, <techreborn:cable:6>, <techreborn:cable:6>, <techreborn:part:30>],
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>]])
+  .addTool(<artisanworktables:artisans_driver_bronze>, 15)
+  .addTool(<artisanworktables:artisans_spanner_bronze>, 15)
+  .addTool(<artisanworktables:artisans_solderer_bronze>, 15)
+  .addOutput(<techreborn:lapotronic_su>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:circuitMaster>, <techreborn:fusion_coil>, <techreborn:fusion_coil>, <techreborn:fusion_coil>, <ore:circuitMaster>],
+    [<ore:circuitMaster>, <ore:energyCrystal>, <techreborn:machine_casing:1>, <ore:energyCrystal>, <ore:circuitMaster>],
+    [<ore:circuitMaster>, <techreborn:fusion_coil>, <techreborn:fusion_coil>, <techreborn:fusion_coil>, <ore:circuitMaster>],
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
+  .addTool(<artisanworktables:artisans_driver_bronze>, 15)
+  .addTool(<artisanworktables:artisans_spanner_bronze>, 15)
+  .addTool(<artisanworktables:artisans_solderer_bronze>, 15)
+  .addOutput(<techreborn:fusion_control_computer>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:plateSteel>, <ore:ic2Extractor>, <ore:ic2Extractor>, <ore:ic2Extractor>, <ore:plateSteel>],
+    [<ore:circuitMaster>, <ore:circuitMaster>, <techreborn:lapotronicorb>, <ore:circuitMaster>, <ore:circuitMaster>],
+    [<techreborn:implosion_compressor>, <techreborn:machine_frame:2>, <techreborn:machine_frame:2>, <techreborn:machine_frame:2>, <techreborn:implosion_compressor>],
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]])
+  .addTool(<artisanworktables:artisans_driver_bronze>, 15)
+  .addTool(<artisanworktables:artisans_spanner_bronze>, 15)
+  .addTool(<artisanworktables:artisans_solderer_bronze>, 15)
+  .addOutput(<techreborn:matter_fabricator>)
   .create();
+  

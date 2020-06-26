@@ -18,8 +18,8 @@
       "blockName": "tile.techreborn.ore",
       "blockNiceName": "Iridium",
       "meta": 1,
-      "veinSize": 3,
-      "veinsPerChunk": 3,
+      "veinSize": 1,
+      "veinsPerChunk": 1,
       "minYHeight": 5,
       "maxYHeight": 60,
       "shouldSpawn": false
