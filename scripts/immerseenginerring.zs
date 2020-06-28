@@ -35,3 +35,10 @@ mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:11>, <techrebo
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19>, <techreborn:dust:32>, <immersiveengineering:material:7>, 800, 2048, [<ore:oreIron> * 6]);
 //ï¿½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½Ê¯ï¿½ï¿½Ä©ï¿½ä·½
 mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble> * 2, 1024, <taiga:valyrium_dust>, 0.003);
+//ÒÆ³ý¹ó½ðÊôµÄÉÕÖÆ
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:7>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:14>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:3>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:15>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:20>);
+

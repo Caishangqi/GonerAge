@@ -14,3 +14,5 @@
 <ore:oreSand>.add(<thebetweenlands:silt>);
 //取消掉炽焰锭的放置(修复内容)
 <ore:ingotOctine>.remove(<thebetweenlands:octine_ingot>);
+//铌矿增加
+<ore:ingotNiobium>.add(<taiga:niob_ingot>);

@@ -14,4 +14,6 @@ mods.techreborn.extractor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {Fl
 mods.techreborn.extractor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalciumcarbonate", Amount: 1000}}), <atum:limestone>, 600, 30);
 mods.techreborn.extractor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalciumcarbonate", Amount: 1000}}) * 2, <thebetweenlands:items_misc:27>, 600, 30);
 //增加大理石配方
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *3 , <techreborn:smalldust:32> *2 , <techreborn:smalldust:3> * 2, null, <ore:stoneMarble>, null, <liquid:water>, 200, 512);
+mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *3 , <techreborn:smalldust:32> *2 , <techreborn:smalldust:3> * 2, null, <ore:stoneMarble>, null, <liquid:water> *1000, 600, 512);
+//增加粘土粉配方
+mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:12>, null, null, null, <ore:blockClay>,<techreborn:dust:9>, <liquid:water> *1000, 600, 512);
