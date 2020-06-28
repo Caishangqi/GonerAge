@@ -18,3 +18,4 @@ mods.embers.Melter.add(<liquid:dilithium_fluid> * 72, <taiga:dilithium_ore>);
 //增加匠魂梦幻联动
 mods.embers.Melter.add(<liquid:stone> *144,<tconstruct:soil>);
 mods.embers.Stamper.add(<tconstruct:materials>,<liquid:stone>* 144,<embers:stamp_bar>,null);
+mods.embers.Stamper.add(<tconstruct:clear_glass> * 2,<liquid:glass>* 144,<embersconstruct:stamp>,<ore:gemQuartz>);
