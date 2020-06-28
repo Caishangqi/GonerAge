@@ -30,7 +30,7 @@
   {
     "mob": "minecraft:spider",
     "seesky": false,
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 2.5,
     "damagemultiply": 2,
     "speedmultiply": 1.5,
@@ -38,108 +38,100 @@
  },
    {
     "mob": "embers:ancient_golem",
-    "result": "allow",
+    "result": "default",
     "damagemultiply": 2,
     "speedmultiply": 1
   },
-     {
-    "mob": "twilightforest:hydra",
-    "result": "allow",
-    "healthmultiply": 10,
-    "damagemultiply": 2,
-	"onjoin": true
-  },
        {
     "mob": "twilightforest:lich",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 5,
     "damagemultiply": 4,
 	"onjoin": true
   },
          {
     "mob": "twilightforest:minotaur",
-    "result": "allow",
-    "healthmultiply": 2,
+    "result": "default",
     "damagemultiply": 2,
 	"speedmultiply": 1,
 	"onjoin": true
   },
            {
     "mob": "twilightforest:knight_phantom",
-    "result": "allow",
-    "healthmultiply": 4,
+    "result": "default",
+    "healthmultiply": 2,
     "damagemultiply": 2,
 	"speedmultiply": 1
   },
              {
     "mob": "twilightforest:ur_ghast",
-    "result": "allow",
-    "healthmultiply": 6,
+    "result": "default",
+    "healthmultiply": 2,
     "damagemultiply": 3,
 	"onjoin": true
   },
                {
     "mob": "twilightforest:yeti_alpha",
-    "result": "allow",
-    "healthmultiply": 10,
+    "result": "default",
+    "healthmultiply": 2,
     "damagemultiply": 2,
 	"speedmultiply": 1,
 	"onjoin": true
   },
                  {
     "mob": "twilightforest:snow_queen",
-    "result": "allow",
-    "healthmultiply": 7,
+    "result": "default",
+    "healthmultiply": 3,
     "damagemultiply": 3,
 	"speedmultiply": 1,
 	"onjoin": true
   },
                    {
     "mob": "twilightforest:naga",
-    "result": "allow",
-    "healthmultiply": 10,
+    "result": "default",
+    "healthmultiply": 5,
     "damagemultiply": 4,
 	"speedmultiply": 1,
 	"onjoin": true
   },
                      {
     "mob": "thebetweenlands:fortress_boss",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 5,
     "damagemultiply": 4,
 	"onjoin": true
   },
                       {
     "mob": "thaumcraft:eldritchwarden",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 3,
     "damagemultiply": 4,
 	"onjoin": true
   },
                         {
     "mob": "thaumcraft:eldritchgolem",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 3,
     "damagemultiply": 2,
 	"onjoin": true
   },
                           {
     "mob": "thaumcraft:cultistleader",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 7,
     "damagemultiply": 3,
 	"onjoin": true
   },
                             {
     "mob": "thaumcraft:taintaclegiant",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 8,
     "damagemultiply": 3,
 	"onjoin": true
   },
                               {
     "mob": "fossil:fossil.anu",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 8,
     "damagemultiply": 4.5,
 	"speedmultiply": 1,
@@ -147,7 +139,7 @@
   },
                                 {
     "mob": "atum:pharaoh",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 8,
     "damagemultiply": 4.5,
 	"speedmultiply": 1,
@@ -155,7 +147,7 @@
   },
                      {
     "mob": "minecraft:wither",
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 10,
     "damagemultiply": 3,
     "speedmultiply": 1,
@@ -180,7 +172,7 @@
        {
     "hostile": true,
     "dimension": -1,
-    "result": "allow",
+    "result": "default",
     "healthmultiply": 2,
     "damagemultiply": 2
   },
@@ -190,8 +182,7 @@
     "dimension": 17,
     "result": "default",
     "healthmultiply": 2,
-    "damagemultiply": 3,
-    "speedmultiply": 2
+    "damagemultiply": 3
   },
  //增强所有迷雾世界怪物
        {
