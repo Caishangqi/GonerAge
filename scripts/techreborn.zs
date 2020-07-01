@@ -16,4 +16,4 @@ mods.techreborn.extractor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {Fl
 //增加大理石配方
 mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *3 , <techreborn:smalldust:32> *2 , <techreborn:smalldust:3> * 2, null, <ore:stoneMarble>, null, <liquid:water> *1000, 600, 512);
 //增加粘土粉配方
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:12>, null, null, null, <ore:blockClay>,<techreborn:dust:9>, <liquid:water> *1000, 600, 512);
+mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:12>, null, null, null, <ore:blockClay>,<techreborn:dust:9>, <liquid:water> *1000, 1200, 512);
