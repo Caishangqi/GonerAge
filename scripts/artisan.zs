@@ -32,6 +32,43 @@ RecipeBuilder.get("basic")
   .setFluid(<liquid:creosote> * 250)
   .addTool(<ore:artisansTSquare>, 1)
   .addOutput(<artisanworktables:worktable:12>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateIron>, null, <ore:artisansHammer>, null, <ore:plateIron>],
+    [<ore:plateIron>, <ore:plateIron>, <artisanworktables:workshop:5>, <ore:plateIron>, <ore:plateIron>],
+    [<ore:plankTreatedWood>, <ore:chest>, <immersiveengineering:material:8>, <ore:chest>, <ore:plankTreatedWood>],
+    [<ore:plankTreatedWood>, <ore:fenceTreatedWood>, null, <ore:fenceTreatedWood>, <ore:plankTreatedWood>]])
+  .addTool(<ore:artisansHandsaw>, 15)
+  .addTool(<ore:artisansFramingHammer>, 15)
+  .addTool(<ore:artisansTrowel>, 15)
+  .addOutput(<artisanworktables:workshop:3>)
+  .create()
+  
+    .setShaped([
+    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+    [<immersiveengineering:metal:39>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <immersiveengineering:metal:39>],
+    [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <artisanworktables:worktable:12>, <immersiveengineering:material:8>, <ore:plankTreatedWood>],
+    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+    [<ore:fenceTreatedWood>, <ore:drawerBasic>, <ore:drawerBasic>, <ore:drawerBasic>, <ore:fenceTreatedWood>]])
+  .setFluid(<liquid:creosote> * 2000)
+  .addTool(<ore:artisansLens>, 10)
+  .addTool(<ore:artisansCompass>, 10)
+  .addTool(<ore:artisansTSquare>, 10)
+  .addOutput(<artisanworktables:workshop:12>)
+  .create()
+
+  .setShaped([
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:reBattery>, <ore:drawerBasic>, <embers:mech_core>, <ore:drawerBasic>, <ore:reBattery>],
+    [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <artisanworktables:workshop:5>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
+    [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
+    [null, <ore:fenceTreatedWood>, null, <ore:fenceTreatedWood>, null]])
+  .setFluid(<liquid:creosote> * 4000)
+  .addTool(<ore:artisansHammer>, 1)
+  .addTool(<ore:artisansDriver>, 1)
+  .addTool(<ore:artisansSpanner>, 1)
+  .addOutput(<artisanworktables:workshop:6>)
   .create();
 
 
@@ -165,6 +202,18 @@ RecipeBuilder.get("blacksmith")
   .addTool(<ore:artisansLens>, 1)
   .addTool(<ore:artisansCarver>, 1)
   .addOutput(<storagedrawers:upgrade_redstone:2>)
+  .create()
+  
+  .setShaped([
+    [null, null, null, <ore:dustDiamond>, <ore:gemDiamond>],
+    [<thaumcraft:log_greatwood>, null, <ore:dustDiamond>, <ore:gemDiamond>, <ore:dustDiamond>],
+    [<thaumcraft:log_greatwood>, <ore:dustDiamond>, <ore:gemDiamond>, <ore:dustDiamond>, null],
+    [null, <ore:stickTreatedWood>, <ore:dustDiamond>, null, null],
+    [<ore:stickTreatedWood>, null, <thaumcraft:log_greatwood>, <thaumcraft:log_greatwood>, null]])
+  .addTool(<ore:artisansTSquare>, 1)
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansFile>, 1)
+  .addOutput(<minecraft:diamond_sword>)
   .create();
 
 RecipeBuilder.get("designer")
@@ -176,32 +225,6 @@ RecipeBuilder.get("designer")
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
   .create();
 
-RecipeBuilder.get("basic")
-  .setShaped([
-    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
-    [<immersiveengineering:metal:39>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <immersiveengineering:metal:39>],
-    [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <artisanworktables:worktable:12>, <immersiveengineering:material:8>, <ore:plankTreatedWood>],
-    [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
-    [<ore:fenceTreatedWood>, <ore:drawerBasic>, <ore:drawerBasic>, <ore:drawerBasic>, <ore:fenceTreatedWood>]])
-  .setFluid(<liquid:creosote> * 2000)
-  .addTool(<ore:artisansLens>, 10)
-  .addTool(<ore:artisansCompass>, 10)
-  .addTool(<ore:artisansTSquare>, 10)
-  .addOutput(<artisanworktables:workshop:12>)
-  .create()
-
-  .setShaped([
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:reBattery>, <ore:drawerBasic>, <embers:mech_core>, <ore:drawerBasic>, <ore:reBattery>],
-    [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <artisanworktables:workshop:5>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
-    [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
-    [null, <ore:fenceTreatedWood>, null, <ore:fenceTreatedWood>, null]])
-  .setFluid(<liquid:creosote> * 4000)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansDriver>, 1)
-  .addTool(<ore:artisansSpanner>, 1)
-  .addOutput(<artisanworktables:workshop:6>)
-  .create();
 
 RecipeBuilder.get("designer")
   .setShaped([
@@ -295,7 +318,7 @@ RecipeBuilder.get("designer")
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "SolarPannel"}))
   .create();
 
-
+  
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
@@ -618,5 +641,56 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_spanner_bronze>, 15)
   .addTool(<artisanworktables:artisans_solderer_bronze>, 15)
   .addOutput(<techreborn:matter_fabricator>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateRefinedIron>, <immersiveengineering:material:9>, <techreborn:part:24>, <immersiveengineering:material:9>, <ore:plateRefinedIron>],
+    [<ore:plateRefinedIron>, <powersuits:powerarmorcomponent:20>, <fossil:biofossil>, <powersuits:powerarmorcomponent:20>, <ore:plateRefinedIron>],
+    [<ore:plateRefinedIron>, <techreborn:lithiumbattery>, <techreborn:machine_frame>, <techreborn:lithiumbattery>, <ore:plateRefinedIron>],
+    [<ore:plateRefinedIron>, <powersuits:powerarmorcomponent:20>, <fossil:relic_scrap>, <powersuits:powerarmorcomponent:20>, <ore:plateRefinedIron>],
+    [<ore:plateRefinedIron>, <techreborn:cable:6>, <techreborn:cable:6>, <techreborn:cable:6>, <ore:plateRefinedIron>]])
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansToolConstantan>, 15)
+  .addOutput(<fossil:analyzer>)
+  .create()
+  
+  .setShaped([
+    [<techreborn:reinforced_glass>, <techreborn:reinforced_glass>, <minecraft:hopper>, <techreborn:reinforced_glass>, <techreborn:reinforced_glass>],
+    [<techreborn:reinforced_glass>, <immersiveengineering:material:26>, <immersiveengineering:material:26>, <immersiveengineering:material:26>, <techreborn:reinforced_glass>],
+    [<techreborn:reinforced_glass>, null, null, null, <techreborn:reinforced_glass>],
+    [<techreborn:reinforced_glass>, <techreborn:part:15>, <techreborn:part:15>, <techreborn:part:15>, <techreborn:reinforced_glass>],
+    [<immersiveengineering:metal_decoration0:7>, <powersuits:powerarmorcomponent:20>, <techreborn:machine_frame>, <powersuits:powerarmorcomponent:20>, <immersiveengineering:metal_decoration0:7>]])
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansToolConstantan>, 15)
+  .addOutput(<fossil:cultivate>)
+  .create()
+
+  .setShaped([
+    [<immersiveengineering:material:9>, <minecraft:hopper>, <ore:plateSteel>, <minecraft:hopper>, <immersiveengineering:material:9>],
+    [<ore:plateSteel>, <travelersbackpack:hose>, <immersiveengineering:material:9>, <travelersbackpack:hose>, <ore:plateSteel>],
+    [<ore:plateSteel>, <techreborn:part:40>, <techreborn:part:40>, <techreborn:part:40>, <ore:plateSteel>],
+    [<ore:plateSteel>, <travelersbackpack:hose_nozzle>, <techreborn:machine_frame>, <travelersbackpack:backpack_tank>, <ore:plateSteel>],
+    [<immersiveengineering:material:9>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:material:9>]])
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansToolConstantan>, 15)
+  .addOutput(<fossil:feeder>)
+  .create()
+  
+  .setShaped([
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <techreborn:part:32>],
+    [<immersiveengineering:metal_decoration0:7>, <techreborn:cable:7>, <techreborn:cable:7>, <techreborn:cable:7>, <immersiveengineering:material:9>],
+    [<immersiveengineering:metal_decoration0:7>, <techreborn:part:40>, <techreborn:machine_frame>, <immersiveengineering:material:3>, <immersiveengineering:metal_device1:2>],
+    [<immersiveengineering:metal_decoration0:7>, <techreborn:cable:7>, <techreborn:cable:7>, <techreborn:cable:7>, <immersiveengineering:material:9>],
+    [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>, <techreborn:part:32>]])
+  .addTool(<ore:artisansSpanner>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansToolConstantan>, 15)
+  .addOutput(<fossil:bubble_blower>)
   .create();
+  
+  
+  
   
