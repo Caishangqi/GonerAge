@@ -1,0 +1,906 @@
+# Configuration file
+
+##########################################################################################################
+# miscelleaneous
+#--------------------------------------------------------------------------------------------------------#
+# Some miscelleaneous but useful tweaks.
+##########################################################################################################
+
+miscelleaneous {
+    # Here you can remove any material by adding its id to this list [default: [paper]]
+    S:"Remove Materials" <
+        dawnstone
+     >
+
+    # Here you can remove any modifier by adding its id to this list [default: [mending_moss]]
+    S:"Remove Modifiers" <
+        mending_moss
+     >
+
+    # Turning this option on will stop tinkers tools from being invincible (they can despawn and burn in lava) [default: true]
+    B:"Tool Uninvincibility"=true
+
+    # The syntax is: ModID:ItemID:MaterialCost
+    # ModID: The mod id of the toolpart.
+    # ItemID: The id of the toolpart.
+    # MaterialCost: The amount of ingots the toolpart should cost. [default: [tconstruct:pick_head:3], [tconstruct:axe_head:3], [tconstruct:pan_head:4]]
+    S:"Toolpart Cost" <
+        tconstruct:pick_head:3
+        tconstruct:axe_head:3
+        tconstruct:pan_head:4
+     >
+}
+
+
+##########################################################################################################
+# stat tweaks
+#--------------------------------------------------------------------------------------------------------#
+# Tweaks to material stats
+##########################################################################################################
+
+"stat tweaks" {
+    # All defense and toughness values will be modified with this percentage.
+    # Set to 100 to disable. [range: 0 ~ 1000, default: 75]
+    I:"Armor Nerf"=60
+
+    # Here you can change the stats of specific materials, this takes priority over the percentage nerfs.
+    # The syntax is: MaterialID:CoreDurability:Defense:Modifier:PlatesDurability:Toughness:ExtraDurability
+    # Set any value to d to keep it as the default value. [default: [iron:12.0:15.0:0.85:5.0:0.0:3.5]]
+    S:"Armory Stat Tweaks" <
+        nagascale:14.0:10.5775:0.0:0.0:0.0:0.0
+        steeleaf:5.0:12.55:16.941175:7.0:0.0:7.0
+        fierymetal:21.0:11.304998:14.823529:14.0:0.0:14.0
+        knightmetal:27.0:12.55:26.470587:29.0:0.0:29.0
+        wood:2.0:1.95:1.0:1.0:0.0:1.0
+        stone:6.0:3.25:0.5:-5.0:0.0:1.0
+        flint:7.0:2.925:0.6:-8.0:0.65:2.0
+        cactus:8.0:6.5:0.85:1.0:0.0:3.0
+        bone:8.0:2.6:1.1:3.0:0.65:3.0
+        obsidian:7.0:8.53:0.9:-13.0:2.275:5.0
+        prismarine:10.0:11.22:0.6:-16.0:1.3:5.0
+        endstone:10.0:5.85:0.85:0.0:0.65:2.0
+        sponge:14.0:0.65:1.2:8.0:3.25:8.0
+        firewood:11.0:11.375:1.0:-20.0:0.325:7.0
+        iron:12.0:6.0:0.85:5.0:0.0:3.5
+        pigiron:10.0:8.855:1.2:0.0:0.65:7.0
+        knightslime:13.0:11.115:0.5:11.0:0.65:6.0
+        slime:14.0:1.3:0.7:0.0:1.3:10.0
+        blueslime:13.0:1.17:1.3:-5.0:1.4625:8.0
+        magmaslime:12.0:12.61:0.85:-20.0:1.625:7.0
+        netherrack:9.0:3.445:0.85:-16.0:0.0:4.0
+        cobalt:13.0:9.14:0.9:5.0:0.0:9.0
+        ardite:14.0:8.45:1.4:-20.0:2.6:10.0
+        manyullyn:13.0:12.0:1.0:8.0:1.95:3.0
+        copper:8.0:5.2:1.05:1.0:0.0:5.0
+        bronze:10.0:7.8:1.1:4.0:0.8125:5.0
+        lead:10.0:7.15:0.7:-5.0:1.3:5.0
+        silver:8.0:11.05:0.95:3.0:1.3:7.0
+        electrum:3.0:5.265:1.1:-2.0:0.0:8.0
+        steel:11.0:13.5:0.9:7.0:2.925:1.0
+        dragonbone:9.0:13.55:27.52941:14.0:0.0:14.0
+        desert_myrmex:12.0:13.0875:14.823529:11.0:0.0:11.0
+        jungle_myrmex:12.0:13.0875:14.823529:11.0:0.0:11.0
+        dragonsteel_fire:46.0:17.5:8.470588:36.0:0.0:36.0
+        dragonsteel_ice:46.0:17.5:8.470588:36.0:0.0:36.0
+        weezer:46.0:14.25:31.764706:36.0:0.0:36.0
+        leatherfrosttroll:13.0:9.1:1.25:13.0:0.975:2.0
+        chitintandeathworm:10.0:9.1:0.625:10.0:1.4625:1.0
+        scalebronzedragon:23.0:11.7:1.875:23.0:1.95:3.0
+        scaleblueseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalepurpleseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalewhitedragon:23.0:11.7:1.875:23.0:1.95:3.0
+        chitinwhitedeathworm:10.0:9.1:0.625:10.0:1.4625:1.0
+        chitinbrowndeathworm:10.0:9.1:0.625:10.0:1.4625:1.0
+        scalegraydragon:23.0:11.7:1.875:23.0:1.95:3.0
+        scalesapphiredragon:23.0:11.7:1.875:23.0:1.95:3.0
+        scaletealseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalebluedragon:23.0:11.7:1.875:23.0:1.95:3.0
+        leatherforesttroll:13.0:9.1:1.25:13.0:0.975:2.0
+        scalegreendragon:23.0:11.7:1.875:23.0:1.95:3.0
+        leathermountaintroll:13.0:9.1:1.25:13.0:0.975:2.0
+        scalebronzeseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalereddragon:23.0:11.7:1.875:23.0:1.95:3.0
+        scaledeepblueseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scaleredseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalegreenseaserpent:20.0:9.1:3.125:20.0:2.4375:3.0
+        scalesilverdragon:23.0:11.7:1.875:23.0:1.95:3.0
+        ashenfabric:7.0:2.6:0.65:2.0:0.0:3.0
+        dawnstone:11.0:10.075:1.0:4.0:1.1375:5.0
+        antimony:11.0:9.425:0.8:-7.0:1.1375:6.0
+        thaumium:8.0:9.1:0.9:4.0:0.0:3.0
+        voidmetal:11.0:11.375:1.05:-5.0:0.65:4.0
+        octine:8.0:9.1:0.7:4.0:0.0:3.0
+        syrmorite:11.0:10.4:0.9:4.0:3.25:6.0
+        valonite:8.0:10.075:0.95:-8.0:0.325:4.0
+        weedwood:2.0:2.275:1.05:1.0:0.0:1.0
+        magical_fabric:6.0:2.73:0.75:1.0:0.0:2.0
+        iridiumalloy:22.0:25.107:20.75:26.0:6.5:10.0
+        ancient_metal:7.0:11.7:19.058823:2.0:0.0:2.0
+        tar_slime:24.0:8.775:12.705883:29.0:0.0:29.0
+        treatedwood:1.0:5.85:21.17647:1.0:0.0:1.0
+        constantan:1.0:11.7:16.941175:5.0:0.0:5.0
+        aer_thaumium:31.0:17.55:31.764706:7.0:0.0:7.0
+        ignis_thaumium:31.0:26.325:31.764706:7.0:0.0:7.0
+        aqua_thaumium:31.0:17.55:31.764706:7.0:0.0:7.0
+        terra_thaumium:76.0:17.55:31.764706:18.0:0.0:18.0
+        ordo_thaumium:31.0:17.55:50.0:7.0:0.0:7.0
+        perditio_thaumium:31.0:17.55:31.764706:7.0:0.0:7.0
+     >
+
+    # Here you can change the stats of specific materials, this takes priority over the percentage nerfs.
+    # The syntax is: MaterialID:Modifier:BonusAmmo
+    # Set any value to d to keep it as the default value. [default: [wood:1.0:0]]
+    S:"Arrow Shaft Stat Tweaks" <
+        nagascale:1.4:20
+        steeleaf:0.6:10
+        fierymetal:0.8:0
+        wood:1.0:0
+        bone:0.9:5
+        blaze:0.8:3
+        reed:1.5:20
+        ice:0.95:0
+        endrod:0.7:1
+        dragonbone:1.3:2
+        weedwood:0.8:0
+        treatedwood:1.2:0
+     >
+
+    # All attack damage values will be modified with this percentage.
+    # Set to 100 to disable. [range: 0 ~ 1000, default: 75]
+    I:"Attackdamage Nerf"=65
+
+    # Here you can change the stats of specific materials, this takes priority over the percentage nerfs.
+    # The syntax is: MaterialID:Modifier
+    # Set any value to d to keep it as the default value. [default: [string:1.0]]
+    S:"Bowstring Stat Tweaks" <
+        string:1.0
+        slimevine_blue:1.0
+        slimevine_purple:1.0
+        vine:1.0
+        hemp:1.0
+     >
+
+    # All durability values will be modified with this percentage.
+    # Set to 100 to disable. [range: 0 ~ 1000, default: 75]
+    I:"Durability Nerf"=65
+
+    # Set this to true to fill the stat tweaks list below with all the default values for all materials
+    # This option disables itself after filling the list and it will also delete any tweaks you already had, so be careful. [default: false]
+    B:"Fill Defaults"=false
+
+    # Here you can change the stats of specific materials, this takes priority over the percentage nerfs.
+    # The syntax is: MaterialID:Accuracy:Modifier
+    # Set any value to d to keep it as the default value. [default: [feather:1.0:1.0]]
+    S:"Fletching Stat Tweaks" <
+        steeleaf:1.0:0.8
+        raven_feather:0.95:1.15
+        feather:1.0:1.0
+        slimeleaf_blue:0.8:1.25
+        slimeleaf_orange:0.8:1.25
+        slimeleaf_purple:0.8:1.25
+        leaf:0.5:1.5
+        stymph_feather:1.0:1.1
+        amphithere_feather:0.9:0.7
+        dragonflywing:0.85:1.35
+     >
+
+    # negative durability values are decreased further instead of increased when durabilitynerf is below 100, does the opposite for values above 100 [default: true]
+    B:"Hardcore Nerfs"=false
+
+    # All mining speed values will be modified with this percentage.
+    # These options can also be used to buff stats, but just.... don't. [range: 0 ~ 1000, default: 75]
+    I:"Miningspeed Nerf"=65
+
+    # Here you can change the stats of specific materials, this takes priority over the percentage nerfs.
+    # The syntax is: MaterialID:HeadDurability:MiningSpeed:AttackDamage:HarvestLevel:HandleModifier:HandleDurability:ExtraDurability:DrawSpeed:Range:BonusDamage
+    # Set any value to d to keep it as the default value. [default: [stone:90:3.0:3:1:0.5:-87:15:5.0:0.4:-1.0]]
+    S:"Stat Tweaks" <
+        nagascale:299:5.585:2.795:1:d:d:d:0.6:2.0:0.0
+        steeleaf:117:3.55:3.9:2:0.8:65:59:1.2:1.5:2.0
+        fierymetal:468:4.68:4.29:3:0.7:260:130:1.0:0.9:4.0
+        knightmetal:585:4.55:3.9:4:1.25:65:260:d:d:d
+        wood:23:1.3:1.3:0:1.0:16:10:1.0:1.0:0.0
+        stone:90:3.0:3.0:1:0.5:-87:15:5.0:0.4:-1.0
+        flint:98:3.25:1.885:1:0.6:-99:26:0.2:0.4:-1.0
+        cactus:137:2.6:2.21:1:0.85:13:33:1.05:0.9:0.0
+        bone:130:3.3085:1.625:1:1.1:33:42:0.95:1.15:0.0
+        obsidian:90:4.5955:2.73:4:0.9:-165:59:0.2:0.4:-1.0
+        prismarine:280:3.575:4.03:1:0.6:-247:65:0.2:0.4:-1.0
+        endstone:273:2.0995:2.0995:3:0.85:0:27:0.2:0.4:-1.0
+        sponge:683:1.963:0.0:0:1.2:163:163:1.15:0.75:0.0
+        firewood:358:3.9:3.575:0:1.0:-330:98:1.0:1.0:0.0
+        iron:133:3.9:2.6:2:0.85:39:33:0.5:1.5:7.0
+        pigiron:247:4.03:2.925:2:1.2:0:111:0.6:1.4:7.0
+        knightslime:553:3.77:3.315:3:0.5:325:81:0.4:2.0:2.0
+        slime:650:2.7559998:1.17:0:0.7:0:228:0.85:1.3:0.0
+        blueslime:507:2.6195002:1.17:0:1.3:-82:130:1.05:1.0:0.0
+        magmaslime:390:1.365:4.55:0:0.85:-330:98:1.1:1.05:1.0
+        netherrack:176:2.925:1.95:1:0.85:-247:49:0.2:0.4:-1.0
+        cobalt:507:7.8:2.665:4:0.9:65:195:0.75:1.3:3.0
+        ardite:644:2.275:2.34:4:1.4:-330:293:0.45:0.8:1.0
+        manyullyn:533:4.5629997:5.3379997:4:0.5:163:33:0.65:1.2:4.0
+        copper:137:3.445:1.95:1:1.05:20:65:0.6:1.45:5.0
+        bronze:280:4.42:2.275:2:1.1:46:52:0.55:1.5:6.0
+        lead:282:3.4125:2.275:1:0.7:-82:65:0.4:1.3:3.0
+        silver:163:3.25:3.25:1:0.95:33:98:1.2:0.8:2.0
+        electrum:33:7.8:1.95:1:1.1:-41:163:1.5:1.0:4.0
+        steel:351:4.55:3.9:3:0.9:98:16:0.4:2.0:9.0
+        dragonbone:195:1.95:3.9:3:1.3:85:130:0.6:1.2:4.0
+        desert_myrmex:260:2.6:3.575:2:0.7:195:98:0.5:0.7:2.0
+        jungle_myrmex:260:2.6:3.575:2:0.7:195:98:0.5:0.7:2.0
+        dragonsteel_fire:975:4.55:7.8:4:0.4:260:332:0.9:3.0:6.0
+        dragonsteel_ice:975:4.55:7.8:4:0.4:260:332:0.9:3.0:6.0
+        weezer:975:3.25:6.5:4:1.5:65:325:1.5:1.2:8.0
+        dawnstone:406:3.9:3.38:1:0.9:62:55:0.58823526:1.35:6.0
+        antimony:346:4.875:2.6:1:0.8:-148:78:0.5:1.1:4.0
+        thaumium:195:4.225:2.6:1:0.9:42:23:0.2857143:1.75:2.0
+        voidmetal:481:3.77:4.225:3:1.15:-91:130:0.45454544:1.15:4.0
+        octine:176:3.575:2.73:1:0.75:36:62:0.5:0.7:-1.5
+        syrmorite:403:3.38:3.315:2:1.15:-74:81:0.4:0.5:1.5
+        valonite:504:3.705:3.64:2:1.0:-124:104:0.2:0.5:1.5
+        weedwood:49:1.56:1.43:0:1.1:26:16:1.0526316:0.9:-0.5
+        iridiumalloy:650:3.575:12.0:5:4.22:325:163:2.0:5.0:15.0
+        ancient_metal:143:3.25:2.6:2:0.9:7:16:0.6:1.7:6.0
+        tar_slime:520:1.95:1.95:0:0.6:33:260:0.5:2.3:6.0
+        treatedwood:16:1.3:1.3:0:1.0:23:13:1.0:1.125:0.0
+        constantan:16:3.055:2.6:2:0.8:39:39:0.55:1.5:5.0
+        aer_thaumium:650:10.4:3.9:3:1.5:65:65:d:d:d
+        ignis_thaumium:650:5.2:5.85:3:1.5:65:65:d:d:d
+        aqua_thaumium:650:5.2:3.9:3:1.5:65:65:d:d:d
+        terra_thaumium:1625:5.2:3.9:3:1.5:163:163:d:d:d
+        ordo_thaumium:650:5.2:3.9:3:3.0:65:65:d:d:d
+        perditio_thaumium:650:7.8:3.9:4:1.5:65:65:d:d:d
+     >
+}
+
+
+##########################################################################################################
+# trait tweaks
+#--------------------------------------------------------------------------------------------------------#
+# Tweaks related to material traits.
+##########################################################################################################
+
+"trait tweaks" {
+    # Set this to true to fill the trait tweaks list below with all the default values for all materials
+    # This option disables itself after filling the list and it will also delete any tweaks you already had, so be careful.
+    B:"Fill Defaults Traits"=false
+
+    # Here you can change the traits of materials for certain parts or all parts.
+    # The syntax is: MaterialID:Parts:Trait1,Trait2,etc.
+    # To keep all existing traits add ":false" at the end
+    S:"Trait tweaks" <
+        nagascale:head:twilit,precipitate:false
+        nagascale:projectile:twilit,precipitate:false
+        nagascale:bow:twilit,precipitate:false
+        nagascale:shaft:twilit,precipitate:false
+        nagascale:core:lightweight_armor:false
+        nagascale:plates:lightweight_armor:false
+        nagascale:trim:lightweight_armor:false
+        steeleaf:head:twilit,synergy:false
+        steeleaf:projectile:twilit,synergy:false
+        steeleaf:handle:twilit,synergy:false
+        steeleaf:extra:twilit,synergy:false
+        steeleaf:bow:twilit,synergy:false
+        steeleaf:shaft:twilit,synergy:false
+        steeleaf:fletching:twilit,synergy:false
+        steeleaf:core:synergy:false
+        steeleaf:plates:synergy:false
+        steeleaf:trim:synergy:false
+        fierymetal:head:twilit,autosmelt,superheat,flammable:false
+        fierymetal:projectile:twilit,flammable:false
+        fierymetal:handle:twilit,flammable:false
+        fierymetal:extra:twilit,flammable:false
+        fierymetal:bow:twilit,flammable:false
+        fierymetal:shaft:twilit,flammable:false
+        fierymetal:core:superhot_armor:false
+        fierymetal:plates:superhot_armor:false
+        fierymetal:trim:superhot_armor:false
+        knightmetal:head:twilit,stalwart:false
+        knightmetal:projectile:twilit,stalwart:false
+        knightmetal:handle:twilit,stalwart:false
+        knightmetal:extra:twilit,stalwart:false
+        knightmetal:core:dramatic_armor:false
+        knightmetal:plates:steady_armor:false
+        knightmetal:trim:steady_armor:false
+        raven_feather:fletching:twilit,veiled:false
+        wood:head:ecological:false
+        wood:projectile:ecological:false
+        wood:handle:ecological:false
+        wood:extra:ecological:false
+        wood:bow:ecological:false
+        wood:shaft:ecological:false
+        wood:core:ecological_armor
+        wood:plates:ecological_armor
+        wood:trim:ecological_armor
+        stone:head:cheapskate:false
+        stone:projectile:cheap:false
+        stone:handle:cheap:false
+        stone:extra:cheap:false
+        stone:bow:cheap:false
+        stone:core:cheapskate_armor:false
+        stone:plates:cheap_armor:false
+        stone:trim:cheap_armor:false
+        flint:head:crude2:false
+        flint:projectile:crude1:false
+        flint:handle:crude1:false
+        flint:extra:crude1:false
+        flint:bow:crude1:false
+        flint:core:mundane2_armor:false
+        flint:plates:mundane1_armor:false
+        flint:trim:mundane1_armor:false
+        cactus:head:prickly:false
+        cactus:projectile:spiky:false
+        cactus:handle:spiky:false
+        cactus:extra:spiky:false
+        cactus:bow:spiky:false
+        cactus:core:spiny_armor:false
+        cactus:plates:spiny_armor:false
+        cactus:trim:spiny_armor:false
+        bone:head:splintering:false
+        bone:projectile:fractured:false
+        bone:handle:fractured:false
+        bone:extra:fractured:false
+        bone:bow:fractured:false
+        bone:shaft:splitting:false
+        bone:core:calcic_armor:false
+        bone:plates:skeletal_armor:false
+        bone:trim:skeletal_armor:false
+        obsidian:head:duritos:false
+        obsidian:projectile:duritos:false
+        obsidian:handle:duritos:false
+        obsidian:extra:duritos:false
+        obsidian:bow:duritos:false
+        obsidian:core:duritos_ranch_armor:false
+        obsidian:plates:duritos_ranch_armor:false
+        obsidian:trim:duritos_ranch_armor:false
+        prismarine:head:jagged,aquadynamic:false
+        prismarine:projectile:aquadynamic:false
+        prismarine:handle:aquadynamic:false
+        prismarine:extra:aquadynamic:false
+        prismarine:bow:aquadynamic:false
+        prismarine:core:aquaspeed_armor,rough_armor:false
+        prismarine:plates:aquaspeed_armor:false
+        prismarine:trim:aquaspeed_armor:false
+        endstone:head:alien:false
+        endstone:projectile:enderference:false
+        endstone:handle:enderference:false
+        endstone:extra:enderference:false
+        endstone:bow:enderference:false
+        endstone:core:alien_armor:false
+        endstone:plates:enderport_armor:false
+        endstone:trim:enderport_armor:false
+        paper:head:writable2:false
+        paper:projectile:writable1:false
+        paper:handle:writable1:false
+        paper:extra:writable1:false
+        paper:bow:writable1:false
+        paper:core:writable2:false
+        paper:plates:writable1:false
+        paper:trim:writable1:false
+        sponge:head:squeaky:false
+        sponge:projectile:squeaky:false
+        sponge:handle:squeaky:false
+        sponge:extra:squeaky:false
+        sponge:bow:squeaky:false
+        sponge:core:absorbent_armor:false
+        sponge:plates:absorbent_armor:false
+        sponge:trim:absorbent_armor:false
+        firewood:head:autosmelt:false
+        firewood:projectile:autosmelt:false
+        firewood:handle:autosmelt:false
+        firewood:extra:autosmelt:false
+        firewood:bow:autosmelt:false
+        firewood:core:combustible_armor:false
+        firewood:plates:combustible_armor:false
+        firewood:trim:combustible_armor:false
+        iron:head:magnetic2
+        iron:projectile:magnetic1:false
+        iron:handle:magnetic1:false
+        iron:extra:magnetic1:false
+        iron:bow:magnetic1:false
+        iron:core:magnetic2_armor:false
+        iron:plates:magnetic1_armor:false
+        iron:trim:magnetic1_armor:false
+        pigiron:head:baconlicious,tasty:false
+        pigiron:projectile:tasty:false
+        pigiron:handle:tasty:false
+        pigiron:extra:tasty:false
+        pigiron:bow:tasty:false
+        pigiron:core:baconlicious_armor,tasty_armor:false
+        pigiron:plates:tasty_armor:false
+        pigiron:trim:tasty_armor:false
+        knightslime:head:crumbling:false
+        knightslime:projectile:unnatural:false
+        knightslime:handle:unnatural:false
+        knightslime:extra:unnatural:false
+        knightslime:bow:unnatural:false
+        knightslime:core:dramatic_armor:false
+        knightslime:plates:invigorating_armor:false
+        knightslime:trim:invigorating_armor:false
+        slime:head:slimey_green:false
+        slime:projectile:slimey_green:false
+        slime:handle:slimey_green:false
+        slime:extra:slimey_green:false
+        slime:bow:slimey_green:false
+        slime:core:slimey_green_armor,bouncy_armor:false
+        slime:plates:slimey_green_armor:false
+        slime:trim:slimey_green_armor:false
+        blueslime:head:slimey_blue:false
+        blueslime:projectile:slimey_blue:false
+        blueslime:handle:slimey_blue:false
+        blueslime:extra:slimey_blue:false
+        blueslime:bow:slimey_blue:false
+        blueslime:core:slimey_blue_armor,bouncy_armor:false
+        blueslime:plates:slimey_blue_armor:false
+        blueslime:trim:slimey_blue_armor:false
+        magmaslime:head:superheat:false
+        magmaslime:projectile:flammable:false
+        magmaslime:handle:flammable:false
+        magmaslime:extra:flammable:false
+        magmaslime:bow:flammable:false
+        magmaslime:core:autoforge_armor:false
+        magmaslime:plates:superhot_armor
+        magmaslime:trim:superhot_armor
+        netherrack:head:aridiculous,hellish:false
+        netherrack:projectile:hellish:false
+        netherrack:handle:hellish:false
+        netherrack:extra:hellish:false
+        netherrack:bow:hellish:false
+        netherrack:core:aridiculous_armor,infernal_armor:
+        netherrack:plates:infernal_armor:false
+        netherrack:trim:infernal_armor:false
+        cobalt:head:momentum:false
+        cobalt:projectile:lightweight:false
+        cobalt:handle:lightweight:false
+        cobalt:extra:lightweight:false
+        cobalt:bow:lightweight:false
+        cobalt:core:featherweight_armor:false
+        cobalt:plates:lightweight_armor:false
+        cobalt:trim:lightweight_armor:false
+        ardite:head:stonebound:false
+        ardite:projectile:petramor:false
+        ardite:handle:petramor:false
+        ardite:extra:petramor:false
+        ardite:bow:petramor:false
+        ardite:core:subterranean_armor:false
+        ardite:plates:petravidity_armor:false
+        ardite:trim:petravidity_armor:false
+        manyullyn:head:insatiable:false
+        manyullyn:projectile:coldblooded:false
+        manyullyn:handle:coldblooded:false
+        manyullyn:extra:coldblooded:false
+        manyullyn:bow:coldblooded:false
+        manyullyn:core:vengeful_armor:false
+        manyullyn:plates:prideful_armor:false
+        manyullyn:trim:prideful_armor:false
+        copper:head:established:false
+        copper:projectile:established:false
+        copper:handle:established:false
+        copper:extra:established:false
+        copper:bow:established:false
+        copper:core:ambitious_armor
+        copper:plates:ambitious_armor
+        copper:trim:ambitious_armor
+        bronze:head:dense:false
+        bronze:projectile:dense:false
+        bronze:handle:dense:false
+        bronze:extra:dense:false
+        bronze:bow:dense:false
+        bronze:core:dense_armor
+        bronze:plates:dense_armor
+        bronze:trim:dense_armor
+        lead:head:poisonous,heavy:false
+        lead:projectile:poisonous,heavy:false
+        lead:handle:poisonous,heavy:false
+        lead:extra:poisonous,heavy:false
+        lead:bow:poisonous,heavy:false
+        lead:core:heavy_armor,shielding_armor:false
+        lead:plates:heavy_armor,shielding_armor:false
+        lead:trim:heavy_armor,shielding_armor:false
+        silver:head:holy:false
+        silver:projectile:holy:false
+        silver:handle:holy:false
+        silver:extra:holy:false
+        silver:bow:holy:false:false
+        silver:core:blessed_armor:false
+        silver:plates:blessed_armor:false
+        silver:trim:blessed_armor:false
+        electrum:head:shocking:false
+        electrum:projectile:shocking:false
+        electrum:handle:shocking:false
+        electrum:extra:shocking:false
+        electrum:bow:shocking:false
+        electrum:core:voltaic_armor:false
+        electrum:plates:voltaic_armor:false
+        electrum:trim:voltaic_armor:false
+        steel:head:sharp:false
+        steel:projectile:stiff:false
+        steel:handle:stiff:false
+        steel:extra:stiff:false
+        steel:bow:stiff:false
+        steel:core:steady_armor:false
+        steel:plates:indomitable_armor:false
+        steel:trim:indomitable_armor:false
+        blaze:shaft:hovering:false
+        reed:shaft:breakable:false
+        ice:shaft:freezing:false
+        endrod:shaft:endspeed:false
+        starmetal:head:dense,brilliance:false
+        starmetal:projectile:brilliance:false
+        starmetal:handle:brilliance:false
+        starmetal:extra:brilliance:false
+        starmetal:bow:brilliance:false
+        starmetal:core:featherweight_armor,alien_armor:false
+        starmetal:plates:featherweight_armor,alien_armor:false
+        starmetal:trim:featherweight_armor,alien_armor:false
+        ashenfabric:core:ashwoven_armor:false
+        ashenfabric:plates:ashwoven_armor:false
+        ashenfabric:trim:ashwoven_armor:false
+        antimony:head:quenching:false
+        antimony:projectile:quenching:false
+        antimony:handle:quenching:false
+        antimony:extra:quenching:false
+        antimony:bow:quenching:false
+        antimony:core:squelching_armor:false
+        antimony:plates:squelching_armor:false
+        antimony:trim:squelching_armor:false
+        thaumium:head:essentia,aural:false
+        thaumium:projectile:aural:false
+        thaumium:handle:aural:false
+        thaumium:extra:aural:false
+        thaumium:bow:aural:false
+        thaumium:core:visbarrier_armor:false
+        thaumium:plates:visbarrier_armor:false
+        thaumium:trim:visbarrier_armor:false
+        voidmetal:head:sapping,warping:false
+        voidmetal:projectile:warping:false
+        voidmetal:handle:warping:false
+        voidmetal:extra:warping:false
+        voidmetal:bow:warping:false
+        voidmetal:core:maniacal_armor:false
+        voidmetal:plates:maniacal_armor:false
+        voidmetal:trim:maniacal_armor:false
+        dragonflywing:fletching:buzzing:false
+        octine:head:sparking,corrosive
+        octine:projectile:corrosive
+        octine:handle:corrosive
+        octine:extra:corrosive
+        octine:bow:corrosive
+        octine:core:corrosive_armor
+        octine:plates:corrosive_armor
+        octine:trim:corrosive_armor
+        syrmorite:head:gritty,corrosive:false
+        syrmorite:projectile:corrosive:false
+        syrmorite:handle:corrosive:false
+        syrmorite:extra:corrosive:false
+        syrmorite:bow:corrosive:false
+        syrmorite:core:corrosive_armor,splash_armor
+        syrmorite:plates:corrosive_armor,splash_armor
+        syrmorite:trim:corrosive_armor,splash_armor
+        valonite:head:sharp,corrosive:false
+        valonite:projectile:corrosive:false
+        valonite:handle:corrosive:false
+        valonite:extra:corrosive:false
+        valonite:bow:corrosive:false
+        valonite:core:corrosive_armor,rough_armor
+        valonite:plates:corrosive_armor,rough_armor
+        valonite:trim:corrosive_armor,rough_armor
+        weedwood:head:ecological,corrosive:false
+        weedwood:projectile:ecological,corrosive:false
+        weedwood:handle:ecological,corrosive:false
+        weedwood:extra:ecological,corrosive:false
+        weedwood:bow:ecological,corrosive:false
+        weedwood:core:ecological_armor,corrosive_armor
+        weedwood:plates:ecological_armor,corrosive_armor
+        weedwood:trim:ecological_armor,corrosive_armor
+        weedwood:shaft:ecological,corrosive:false
+        magical_fabric:core:magical_armor:false
+        magical_fabric:plates:magical_armor:false
+        magical_fabric:trim:magical_armor:false
+        tiberium:head:unstable:false
+        tiberium:projectile:unstable:false
+        tiberium:handle:unstable:false
+        tiberium:extra:unstable:false
+        tiberium:bow:unstable:false
+        tiberium:core:unstable:false
+        tiberium:plates:unstable:false
+        tiberium:trim:unstable:false
+        aurorium:head:arcane:false
+        aurorium:projectile:arcane:false
+        aurorium:handle:arcane:false
+        aurorium:extra:arcane:false
+        aurorium:bow:arcane:false
+        aurorium:core:arcane:false
+        aurorium:plates:arcane:false
+        aurorium:trim:arcane:false
+        prometheum:head:catcher:false
+        prometheum:projectile:catcher:false
+        prometheum:handle:blind:false
+        prometheum:extra:catcher:false
+        prometheum:bow:catcher:false
+        prometheum:core:catcher:false
+        prometheum:plates:catcher:false
+        prometheum:trim:catcher:false
+        duranite:head:analysing:false
+        duranite:projectile:analysing:false
+        duranite:handle:analysing:false
+        duranite:extra:analysing:false
+        duranite:bow:analysing:false
+        duranite:core:analysing:false
+        duranite:plates:analysing:false
+        duranite:trim:analysing:false
+        valyrium:head:congenial:false
+        valyrium:projectile:congenial:false
+        valyrium:handle:congenial:false
+        valyrium:extra:congenial:false
+        valyrium:bow:congenial:false
+        valyrium:core:congenial:false
+        valyrium:plates:congenial:false
+        valyrium:trim:congenial:false
+        vibranium:head:heroic:false
+        vibranium:handle:resonance:false
+        terrax:head:cheap
+        terrax:projectile:cheap
+        terrax:handle:cheap
+        terrax:extra:cheap
+        terrax:bow:cheap
+        terrax:core:cheap
+        terrax:plates:cheap
+        terrax:trim:cheap
+        palladium:head:dark,cursed:false
+        palladium:projectile:dark,cursed:false
+        palladium:handle:dark,cursed:false
+        palladium:extra:dark,cursed:false
+        palladium:bow:dark,cursed:false
+        palladium:core:dark,cursed:false
+        palladium:plates:dark,cursed:false
+        palladium:trim:dark,cursed:false
+        uru:head:diffuse:false
+        uru:projectile:diffuse:false
+        uru:handle:diffuse:false
+        uru:extra:diffuse:false
+        uru:bow:diffuse:false
+        uru:core:diffuse:false
+        uru:plates:diffuse:false
+        uru:trim:diffuse:false
+        eezo:head:dissolving,superheavy:false
+        eezo:projectile:dissolving,superheavy:false
+        eezo:handle:dissolving,superheavy:false
+        eezo:extra:dissolving,superheavy:false
+        eezo:bow:dissolving,superheavy:false
+        eezo:core:dissolving,superheavy:false
+        eezo:plates:dissolving,superheavy:false
+        eezo:trim:dissolving,superheavy:false
+        basalt:head:softy:false
+        basalt:projectile:softy:false
+        basalt:handle:softy:false
+        basalt:extra:softy:false
+        basalt:bow:softy:false
+        basalt:core:softy:false
+        basalt:plates:softy:false
+        basalt:trim:softy:false
+        triberium:head:fragile:false
+        triberium:projectile:fragile:false
+        triberium:handle:fragile:false
+        triberium:extra:fragile:false
+        triberium:bow:fragile:false
+        triberium:core:fragile:false
+        triberium:plates:fragile:false
+        triberium:trim:fragile:false
+        fractum:head:fracture:false
+        fractum:projectile:fracture:false
+        fractum:handle:fracture:false
+        fractum:extra:fracture:false
+        fractum:bow:fracture:false
+        fractum:core:fracture:false
+        fractum:plates:fracture:false
+        fractum:trim:fracture:false
+        violium:head:arcane:false
+        violium:projectile:arcane:false
+        violium:handle:arcane:false
+        violium:extra:arcane:false
+        violium:bow:arcane:false
+        violium:core:arcane:false
+        violium:plates:arcane:false
+        violium:trim:arcane:false
+        proxii:head:curvature:false
+        proxii:projectile:curvature:false
+        proxii:handle:curvature:false
+        proxii:extra:curvature:false
+        proxii:bow:curvature:false
+        proxii:core:curvature:false
+        proxii:plates:curvature:false
+        proxii:trim:curvature:false
+        tritonite:head:whirl:false
+        tritonite:projectile:whirl:false
+        tritonite:handle:whirl:false
+        tritonite:extra:whirl:false
+        tritonite:bow:whirl:false
+        tritonite:core:whirl:false
+        tritonite:plates:whirl:false
+        tritonite:trim:whirl:false
+        ignitz:head:melting:false
+        ignitz:projectile:melting:false
+        ignitz:handle:garishly:false
+        ignitz:extra:melting:false
+        ignitz:bow:melting:false
+        ignitz:core:melting:false
+        ignitz:plates:melting:false
+        ignitz:trim:melting:false
+        imperomite:head:hollow:false
+        imperomite:projectile:hollow:false
+        imperomite:handle:hollow:false
+        imperomite:extra:hollow:false
+        imperomite:bow:hollow:false
+        imperomite:core:hollow:false
+        imperomite:plates:hollow:false
+        imperomite:trim:hollow:false
+        solarium:head:superheavy,crushing:false
+        solarium:projectile:superheavy,crushing:false
+        solarium:handle:superheavy,crushing:false
+        solarium:extra:superheavy,crushing:false
+        solarium:bow:superheavy,crushing:false
+        solarium:core:superheavy,crushing:false
+        solarium:plates:superheavy,crushing:false
+        solarium:trim:superheavy,crushing:false
+        nihilite:head:souleater:false
+        nihilite:projectile:souleater:false
+        nihilite:handle:souleater:false
+        nihilite:extra:souleater:false
+        nihilite:bow:souleater:false
+        nihilite:core:souleater:false
+        nihilite:plates:souleater:false
+        nihilite:trim:souleater:false
+        adamant:head:berserk:false
+        adamant:projectile:berserk:false
+        adamant:handle:berserk:false
+        adamant:extra:berserk:false
+        adamant:bow:berserk:false
+        adamant:core:berserk:false
+        adamant:plates:berserk:false
+        adamant:trim:berserk:false
+        dyonite:head:tantrum:false
+        dyonite:projectile:tantrum:false
+        dyonite:handle:tantrum:false
+        dyonite:extra:tantrum:false
+        dyonite:bow:tantrum:false
+        dyonite:core:tantrum:false
+        dyonite:plates:tantrum:false
+        dyonite:trim:tantrum:false
+        nucleum:head:decay,mutate:false
+        nucleum:projectile:decay,mutate:false
+        nucleum:handle:decay,mutate:false
+        nucleum:extra:decay,mutate:false
+        nucleum:bow:decay,mutate:false
+        nucleum:core:decay,mutate:false
+        nucleum:plates:decay,mutate:false
+        nucleum:trim:decay,mutate:false
+        lumix:head:glimmer:false
+        lumix:handle:bright:false
+        seismum:head:cascade:false
+        seismum:projectile:cascade:false
+        seismum:handle:cascade:false
+        seismum:extra:cascade:false
+        seismum:bow:cascade:false
+        seismum:core:cascade:false
+        seismum:plates:cascade:false
+        seismum:trim:cascade:false
+        astrium:head:ported:false
+        astrium:projectile:ported:false
+        astrium:handle:ported:false
+        astrium:extra:ported:false
+        astrium:bow:ported:false
+        astrium:core:ported:false
+        astrium:plates:ported:false
+        astrium:trim:ported:false
+        niob:head:reviving:false
+        niob:projectile:reviving:false
+        niob:handle:reviving:false
+        niob:extra:reviving:false
+        niob:bow:reviving:false
+        niob:core:reviving:false
+        niob:plates:reviving:false
+        niob:trim:reviving:false
+        yrdeen:head:naturebound:false
+        yrdeen:projectile:naturebound:false
+        yrdeen:handle:naturebound:false
+        yrdeen:extra:naturebound:false
+        yrdeen:bow:naturebound:false
+        yrdeen:core:naturebound:false
+        yrdeen:plates:naturebound:false
+        yrdeen:trim:naturebound:false
+        meteorite:head:crumbling:false
+        meteorite:projectile:pulverizing:false
+        meteorite:handle:pulverizing:false
+        meteorite:extra:pulverizing:false
+        meteorite:bow:pulverizing:false
+        meteorite:core:pulverizing:false
+        meteorite:plates:pulverizing:false
+        meteorite:trim:pulverizing:false
+        obsidiorite:head:alien:false
+        obsidiorite:projectile:alien:false
+        obsidiorite:handle:alien:false
+        obsidiorite:extra:alien:false
+        obsidiorite:bow:alien:false
+        obsidiorite:core:alien:false
+        obsidiorite:plates:alien:false
+        obsidiorite:trim:alien:false
+        ancient_metal:head:lightning,crude1:false
+        ancient_metal:projectile:lightning,crude1:false
+        ancient_metal:handle:lightning,crude1:false
+        ancient_metal:extra:lightning,crude1:false
+        ancient_metal:bow:lightning,crude1:false
+        ancient_metal:core:lightning,crude1:false
+        ancient_metal:plates:lightning,crude1:false
+        ancient_metal:trim:lightning,crude1:false
+        tar_slime:head:slimey_tar:false
+        tar_slime:projectile:slimey_tar:false
+        tar_slime:handle:slimey_tar:false
+        tar_slime:extra:slimey_tar:false
+        tar_slime:bow:slimey_tar:false
+        tar_slime:core:slimey_tar:false
+        tar_slime:plates:slimey_tar:false
+        tar_slime:trim:slimey_tar:false
+        treatedwood:head:ecological:false
+        treatedwood:projectile:ecological:false
+        treatedwood:handle:ecological:false
+        treatedwood:extra:ecological:false
+        treatedwood:bow:ecological:false
+        treatedwood:shaft:ecological:false
+        treatedwood:core:ecological:false
+        treatedwood:plates:ecological:false
+        treatedwood:trim:ecological:false
+        constantan:head:thermalinversion:false
+        constantan:projectile:thermalinversion:false
+        constantan:handle:thermalinversion:false
+        constantan:extra:thermalinversion:false
+        constantan:bow:thermalinversion:false
+        constantan:core:absorbent_armor:false
+        constantan:plates:absorbent_armor:false
+        constantan:trim:absorbent_armor:false
+        aer_thaumium:head:lightweight:false
+        aer_thaumium:projectile:lightweight:false
+        aer_thaumium:handle:lightweight:false
+        aer_thaumium:extra:lightweight:false
+        aer_thaumium:core:lightweight:false
+        aer_thaumium:plates:lightweight:false
+        aer_thaumium:trim:lightweight:false
+        ignis_thaumium:head:autosmelt,superheat:false
+        ignis_thaumium:projectile:autosmelt,superheat:false
+        ignis_thaumium:handle:autosmelt,superheat:false
+        ignis_thaumium:extra:autosmelt,superheat:false
+        ignis_thaumium:core:autosmelt,superheat:false
+        ignis_thaumium:plates:autosmelt,superheat:false
+        ignis_thaumium:trim:autosmelt,superheat:false
+        aqua_thaumium:head:aquadynamic:false
+        aqua_thaumium:projectile:aquadynamic:false
+        aqua_thaumium:handle:aquadynamic:false
+        aqua_thaumium:extra:aquadynamic:false
+        aqua_thaumium:core:aquadynamic:false
+        aqua_thaumium:plates:aquadynamic:false
+        aqua_thaumium:trim:aquadynamic:false
+        terra_thaumium:head:petramor,duritos:false
+        terra_thaumium:projectile:petramor,duritos:false
+        terra_thaumium:handle:petramor,duritos:false
+        terra_thaumium:extra:petramor,duritos:false
+        terra_thaumium:core:petramor,duritos:false
+        terra_thaumium:plates:petramor,duritos:false
+        terra_thaumium:trim:petramor,duritos:false
+        ordo_thaumium:head:writable1:false
+        ordo_thaumium:projectile:writable1:false
+        ordo_thaumium:handle:writable1:false
+        ordo_thaumium:extra:writable1:false
+        ordo_thaumium:core:writable1:false
+        ordo_thaumium:plates:writable1:false
+        ordo_thaumium:trim:writable1:false
+        perditio_thaumium:head:tr_entropic:false
+        perditio_thaumium:projectile:tr_entropic:false
+        perditio_thaumium:handle:tr_entropic:false
+        perditio_thaumium:extra:tr_entropic:false
+        perditio_thaumium:core:tr_entropic:false
+        perditio_thaumium:plates:tr_entropic:false
+        perditio_thaumium:trim:tr_entropic:false
+     >
+}
+
+
