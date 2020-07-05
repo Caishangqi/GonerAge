@@ -148,7 +148,6 @@
                      {
     "mob": "minecraft:wither",
     "result": "default",
-    "healthmultiply": 10,
     "damagemultiply": 3,
     "speedmultiply": 1,
     "onjoin": true

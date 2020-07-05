@@ -60,14 +60,14 @@ RecipeBuilder.get("basic")
 
   .setShaped([
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:reBattery>, <ore:drawerBasic>, <embers:mech_core>, <ore:drawerBasic>, <ore:reBattery>],
+    [<minecraft:item_frame>, <ore:drawerBasic>, <embers:mech_core>, <ore:drawerBasic>, <minecraft:item_frame>],
     [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <artisanworktables:workshop:5>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
     [<immersiveengineering:material:9>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <immersiveengineering:material:9>],
     [null, <ore:fenceTreatedWood>, null, <ore:fenceTreatedWood>, null]])
   .setFluid(<liquid:creosote> * 4000)
-  .addTool(<ore:artisansHammer>, 1)
-  .addTool(<ore:artisansDriver>, 1)
-  .addTool(<ore:artisansSpanner>, 1)
+  .addTool(<ore:artisansHammer>, 15)
+  .addTool(<ore:artisansDriver>, 15)
+  .addTool(<ore:artisansSpanner>, 15)
   .addOutput(<artisanworktables:workshop:6>)
   .create();
 
