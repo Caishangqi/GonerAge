@@ -1,0 +1,38 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "roots:stone_knife"
+	},
+	x: -5.5d,
+	y: -0.5d,
+	description: "制作一个小刀然后将他和原木放入合成栏中",
+	title: "处理原木!",
+	tasks: [{
+		uid: 1291829668,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "roots:stone_knife"
+		},
+		ignore_nbt: 1,
+		type: "item",
+		ignore_damage: 1
+	}],
+	rewards: [{
+		uid: 1072772961,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks"
+		},
+		count: 16,
+		type: "item"
+	}],
+	dependencies: [I;-419440891]
+}

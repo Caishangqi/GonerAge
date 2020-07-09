@@ -1,0 +1,103 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cuisine:chopping_board",
+		tag: {
+			BlockEntityTag: {
+				cover: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:log",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}
+	},
+	x: -3.0d,
+	y: -1.5d,
+	description: "你需要砧板和斧子来处理树木获取更多木头",
+	text: [
+		"首先将原木放入砧板中",
+		"手持斧子(任何斧子都可以)左键砧板中的木头",
+		"3-5次劈砍即可获得6倍产量的木头"
+	],
+	title: "高效率处理原木",
+	tasks: [{
+		uid: 1307508193,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cuisine:chopping_board",
+			tag: {
+				BlockEntityTag: {
+					cover: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:log",
+						Count: 1,
+						Damage: 0
+					}
+				}
+			}
+		},
+		type: "item"
+	}],
+	rewards: [{
+		uid: -1294602049,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.75f,
+					FreeModifiers: 3,
+					Durability: 324,
+					HarvestLevel: 1,
+					Attack: 4.25f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.75f,
+					FreeModifiers: 3,
+					Durability: 324,
+					HarvestLevel: 1,
+					Attack: 4.25f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"harvest",
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"silver",
+						"silver",
+						"silver"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				}],
+				Traits: ["holy"]
+			}
+		},
+		type: "item"
+	}],
+	dependencies: [I;1770770555]
+}

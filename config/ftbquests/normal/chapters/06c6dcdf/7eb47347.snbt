@@ -1,0 +1,63 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "embers:copper_cell",
+		tag: {
+			emberCapacity: 24000.0d,
+			ember: 0.0d
+		}
+	},
+	x: -0.5d,
+	y: -1.5d,
+	title: "»Ò½ıÄÜÁ¿´¢´æ",
+	tasks: [{
+		uid: -967199892,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		},
+		type: "item"
+	}],
+	rewards: [
+		{
+			uid: -1725913845,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:crystal_ember"
+			},
+			count: 8,
+			type: "item"
+		},
+		{
+			uid: 165112625,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:ember_emitter"
+			},
+			type: "item"
+		},
+		{
+			uid: 1598480216,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:ember_receiver"
+			},
+			type: "item"
+		}
+	],
+	dependencies: [I;784128690]
+}

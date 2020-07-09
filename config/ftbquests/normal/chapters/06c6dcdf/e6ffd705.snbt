@@ -1,0 +1,40 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:stick"
+	},
+	x: -7.0d,
+	y: -0.5d,
+	description: "用一个树枝即可在2x2合成中做木棍",
+	title: "制作木棍",
+	tasks: [{
+		uid: 1566736828,
+		item: {
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		},
+		count: 2,
+		title: "Any stickWood",
+		type: "item"
+	}],
+	rewards: [{
+		uid: -1929107444,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		},
+		count: 8,
+		type: "item"
+	}],
+	dependencies: [I;1741699701]
+}

@@ -1,0 +1,376 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "fossil:scarab_gem"
+	},
+	x: -1.0d,
+	y: -1.0d,
+	title: "π≈∂≠ ’≤ÿº“",
+	tasks: [
+		{
+			uid: 2004656868,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "fossil:aquatic_scarab_gem"
+			},
+			type: "item"
+		},
+		{
+			uid: 430119923,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "fossil:scarab_gem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1289683303,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "betternether:magma_flower"
+			},
+			type: "item"
+		},
+		{
+			uid: -737415571,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "betternether:nether_reed"
+			},
+			type: "item"
+		},
+		{
+			uid: -376388995,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "tconstruct:materials",
+				Damage: 19
+			},
+			type: "item"
+		},
+		{
+			uid: -157568707,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "tconstruct:ingots",
+				Damage: 4
+			},
+			type: "item"
+		},
+		{
+			uid: -746711700,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "tconstruct:ingots",
+				Damage: 3
+			},
+			type: "item"
+		},
+		{
+			uid: 373023514,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 17
+			},
+			type: "item"
+		},
+		{
+			uid: 1236658288,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc"
+			},
+			type: "item"
+		},
+		{
+			uid: -911492305,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 1
+			},
+			type: "item"
+		},
+		{
+			uid: -2080678916,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 4
+			},
+			type: "item"
+		},
+		{
+			uid: 131948932,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 25
+			},
+			type: "item"
+		},
+		{
+			uid: 1578092122,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 29
+			},
+			type: "item"
+		},
+		{
+			uid: 550815846,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 39
+			},
+			type: "item"
+		},
+		{
+			uid: -1618039201,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:items_misc",
+				Damage: 47
+			},
+			type: "item"
+		},
+		{
+			uid: 1038222649,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:forbidden_fig"
+			},
+			type: "item"
+		},
+		{
+			uid: -1113344081,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:life_crystal"
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -2069497696,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:pyrad_flame"
+			},
+			type: "item"
+		},
+		{
+			uid: -401024973,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:twilight_sapling",
+				Damage: 9
+			},
+			type: "item"
+		},
+		{
+			uid: -129243459,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:prismarine_shard"
+			},
+			type: "item"
+		},
+		{
+			uid: 604355848,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:nether_star"
+			},
+			type: "item"
+		},
+		{
+			uid: -2139455215,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:magic_map_focus"
+			},
+			type: "item"
+		},
+		{
+			uid: 1217757084,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:transformation_powder"
+			},
+			type: "item"
+		},
+		{
+			uid: -1816512620,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:moonworm"
+			},
+			type: "item"
+		},
+		{
+			uid: 312036537,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "atum:heart_of_ra"
+			},
+			type: "item"
+		},
+		{
+			uid: -1013735219,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "atum:idol_of_labor"
+			},
+			type: "item"
+		},
+		{
+			uid: 1942477528,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "atum:scarab"
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -1768165780,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:nether_star"
+			},
+			type: "item"
+		},
+		{
+			uid: -2052618032,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "atum:atums_protection"
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		}
+	],
+	rewards: [
+		{
+			uid: 1543893211,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:shader_bag",
+				tag: {
+					shader_rarity: "EPIC"
+				}
+			},
+			type: "item"
+		},
+		{
+			uid: -1905292685,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:shader_bag",
+				tag: {
+					shader_rarity: "IE:MASTERWORK"
+				}
+			},
+			type: "item"
+		},
+		{
+			uid: -1038698145,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "twilightforest:shader_bag",
+				tag: {
+					shader_rarity: "TWILIGHT"
+				}
+			},
+			type: "item"
+		},
+		{
+			uid: 1583265805,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "tconstruct:materials",
+				Damage: 50
+			},
+			count: 2,
+			type: "item"
+		}
+	]
+}

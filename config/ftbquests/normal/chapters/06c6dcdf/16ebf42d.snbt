@@ -1,0 +1,78 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "embersconstruct:kiln"
+	},
+	x: -3.0d,
+	y: 0.5d,
+	description: "你已经进入了embers教程阶段",
+	text: [
+		"",
+		"该服务器的匠魂系统已经重写,请使用embers锻造系统进行操作",
+		"教程在这里: https://www.bilibili.com/video/BV1Ex411Q7Mq"
+	],
+	title: "金属材料加工 I",
+	tasks: [
+		{
+			uid: 551014216,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embersconstruct:kiln"
+			},
+			type: "item"
+		},
+		{
+			uid: -912183230,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embersconstruct:stamptable"
+			},
+			type: "item"
+		}
+	],
+	rewards: [
+		{
+			uid: 104641131,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:stamp_bar"
+			},
+			type: "item"
+		},
+		{
+			uid: 775721885,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:stamp_plate"
+			},
+			type: "item"
+		},
+		{
+			uid: -1163646912,
+			icon: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {
+						AS_Amulet_HolderLeast: -7315880346232258633L,
+						AS_Amulet_HolderMost: -5762196108295848744L
+					},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "bibliocraft:compass"
+			},
+			title: "点击获得余烬教程",
+			type: "command",
+			command: "/say 余烬中文教程:https://www.bilibili.com/video/BV1Ex411Q7Mq"
+		}
+	],
+	dependencies: [I;1770770555]
+}

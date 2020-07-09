@@ -1,0 +1,183 @@
+{
+	use_title: 1,
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "spiceoflife:lunchbag"
+	},
+	title: "ÃÀÊ³Ì×²Í",
+	rewards: [
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:orangejuiceitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:cactusfruitjuiceitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:apricotjuiceitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:figjuiceitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:potatosaladitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:glazedcarrotsitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:bakedhamitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:hotdogitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:cheesecakeitem"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:vegetablesoupitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:cheesecakeitem"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:hotdogitem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:hotchocolateitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:chocolatebaritem"
+			},
+			count: 16
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:breadedporkchopitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:fishandchipsitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:loadedbakedpotatoitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:carrotsoupitem"
+			},
+			count: 8
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:melonsmoothieitem"
+			},
+			count: 16
+		}
+	],
+	loot_size: 1
+}

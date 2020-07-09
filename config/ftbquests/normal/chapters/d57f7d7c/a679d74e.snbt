@@ -1,0 +1,54 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	title: "科技进步I阶",
+	tasks: [{
+		uid: -477555010,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:part",
+			Damage: 29
+		},
+		type: "item"
+	}],
+	rewards: [
+		{
+			uid: -982420966,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "techreborn:part",
+				Damage: 29
+			},
+			count: 5,
+			type: "item"
+		},
+		{
+			uid: 627213093,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "techreborn:part",
+				Damage: 32
+			},
+			count: 16,
+			type: "item"
+		},
+		{
+			uid: -92230404,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "techreborn:part",
+				Damage: 13
+			},
+			count: 4,
+			type: "item"
+		}
+	]
+}

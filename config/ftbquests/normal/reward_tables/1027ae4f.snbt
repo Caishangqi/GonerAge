@@ -1,0 +1,274 @@
+{
+	use_title: 1,
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thebetweenlands:weedwood_jukebox"
+	},
+	title: "³ªÆ¬¹öÂÖ»ú",
+	rewards: [
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:astatos"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:between_you_and_me"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:christmas_on_the_marsh"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:the_explorer"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:hag_dance"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lonely_fire"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:mysterious_record"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:ancient"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:ancient"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:beneath_a_green_sky"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:dj_wights_mixtape"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:onwards"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:wandering_wisps"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:waterlogged"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_13"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_cat"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_blocks"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_chirp"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_far"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_mall"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_mellohi"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_stal"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_strad"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_strad"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_ward"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_11"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:record_wait"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "fossil:record_bones"
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "fossil:record_anu"
+			}
+		}
+	],
+	loot_size: 5
+}

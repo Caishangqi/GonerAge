@@ -1,0 +1,44 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "techreborn:part",
+		Damage: 24
+	},
+	x: -3.0d,
+	can_repeat: 1,
+	y: -1.0d,
+	description: "请务必将报错反馈至github",
+	text: [
+		"你的报错会给我们很好的参考,我们会周期性的修复这些问题",
+		"报错前,请参考github上的报错手册来让你的报错更好读懂"
+	],
+	tasks: [{
+		uid: -1362924653,
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:part",
+			Damage: 24
+		},
+		title: "反馈报错",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: 1212969346,
+		auto: "enabled",
+		player_command: 1,
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:part",
+			Damage: 24
+		},
+		title: "上传报错的网站",
+		type: "command",
+		command: "/say @team 请访问该网站上传报错 https://github.com/Caishangqi/GonerAge-IVworld/issues"
+	}]
+}

@@ -1,0 +1,188 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thebetweenlands:manual_hl"
+	},
+	x: -2.0d,
+	y: 0.5d,
+	title: "最大的图书馆",
+	tasks: [
+		{
+			uid: -376534871,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap"
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 41000109,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 1
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -1005607076,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 2
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -106098286,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 3
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -1879591027,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 4
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 906635080,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 5
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 1558096203,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 6
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 1548858429,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 7
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 135477066,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 8
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: 203092167,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:lore_scrap",
+				Damage: 9
+			},
+			ignore_nbt: 1,
+			type: "item",
+			ignore_damage: 1
+		},
+		{
+			uid: -1857078181,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "embers:tinker_lens"
+			},
+			type: "item"
+		}
+	],
+	rewards: [
+		{
+			uid: 1702554354,
+			icon: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:weedwood_jukebox"
+			},
+			type: "loot",
+			table: 0
+		},
+		{
+			uid: -400430730,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "tconstruct:materials",
+				Damage: 50
+			},
+			count: 2,
+			type: "item"
+		}
+	]
+}

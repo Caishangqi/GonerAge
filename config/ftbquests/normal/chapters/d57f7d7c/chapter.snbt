@@ -1,0 +1,20 @@
+{
+	always_invisible: 0,
+	default_quest_shape: "hexagon",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "embers:glimmer_lamp",
+		tag: {
+			light: 1200
+		}
+	},
+	description: [
+		"繁荣的年代就要开始了",
+		""
+	],
+	title: "落魄年代 IV的繁荣",
+	group: 0
+}

@@ -1,0 +1,13 @@
+{
+	always_invisible: 0,
+	default_quest_shape: "circle",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "futuremc:campfire"
+	},
+	description: ["这本手册教你如何平稳的度过前期"],
+	title: "生存手册 IV版",
+	group: 0
+}

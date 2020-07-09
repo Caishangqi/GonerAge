@@ -1,0 +1,305 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:chickenkatsuitem"
+	},
+	x: -0.5d,
+	y: 0.5d,
+	title: "美食家养成",
+	tasks: [
+		{
+			uid: -977886817,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:chickenkatsuitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 647578024,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:weekendpicnicitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -1978939770,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:gourmetbeefburgeritem"
+			},
+			type: "item"
+		},
+		{
+			uid: 48803533,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:southernstylebreakfastitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -1436016884,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:meatfeastpizzaitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -175664379,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:thankfuldinneritem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1326421446,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:koreandinneritem"
+			},
+			type: "item"
+		},
+		{
+			uid: 253374513,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:gourmetvenisonburgeritem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1192885538,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:minerstewitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1739311706,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:cornedbeefbreakfastitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 58744508,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:chimichangaitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -977843512,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:salisburysteakitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -418014518,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:ploughmanslunchitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -2042450704,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:cornedbeefhashitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 438925193,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:bentoboxitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -1839036104,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:friedfeastitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -2122199584,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:timpanoitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1045747830,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:deluxechickencurryitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1394104007,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:paradiseburgeritem"
+			},
+			type: "item"
+		},
+		{
+			uid: 301594085,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:netherstartoastitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 967165996,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:chickenandwafflesitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 2026240694,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:kohlundpinkelitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -437311819,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:epicbltitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -961848686,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:battenbergitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1065941905,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:pumpkinspicelatteitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 1567411987,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:holidaycakeitem"
+			},
+			type: "item"
+		},
+		{
+			uid: 370117839,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:stuffedduckitem"
+			},
+			type: "item"
+		},
+		{
+			uid: -1908210810,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "harvestcraft:fruitcakeitem"
+			},
+			type: "item"
+		}
+	],
+	rewards: [{
+		uid: -1239712603,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50
+		},
+		count: 2,
+		type: "item"
+	}]
+}

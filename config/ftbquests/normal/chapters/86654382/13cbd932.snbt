@@ -1,0 +1,22 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	description: "欢迎来到落魄年代第四周目!",
+	text: [
+		"全新的题材,不仅仅是养老,还包含了一条极为复杂的科技线及困难体系的BOSS系统!",
+		"",
+		"以收集目标为终极目标给那些喜欢冲击任务的玩家目标,当然了,如你所见这是个服务器休闲整合包,因此，开心就行"
+	],
+	tasks: [{
+		uid: -581816834,
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "embers:ember_cluster"
+		},
+		title: "欢迎体验 落魄年代:蒸汽殖民",
+		type: "checkmark",
+		tags: ["a"]
+	}]
+}

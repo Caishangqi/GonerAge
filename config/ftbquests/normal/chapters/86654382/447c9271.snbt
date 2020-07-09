@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	text: ["沙漠之旅,迷雾世界,暮色森林,交错次元,以及阿努比斯!"],
+	tasks: [{
+		uid: 1308110511,
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thebetweenlands:explorers_hat"
+		},
+		title: "更多的探险元素",
+		type: "checkmark"
+	}],
+	dependencies: [I;615435003]
+}

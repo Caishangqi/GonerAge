@@ -1,0 +1,544 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thebetweenlands:elixir",
+		tag: {
+			elixirData: {
+				duration: 2400,
+				strength: 4
+			}
+		}
+	},
+	x: 1.0d,
+	y: 0.5d,
+	title: "Â¢¶ÏÁ¶Á¶Ò©³§",
+	tasks: [
+		{
+			uid: 1064088520,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				}
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -698323802,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 2
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -1520363368,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 1200,
+						strength: 4
+					}
+				},
+				Damage: 4
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1143060528,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 6
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -745547969,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 8
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 666141736,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 10
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 761859783,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 3000,
+						strength: 4
+					}
+				},
+				Damage: 12
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 316521392,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 14
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -1980699002,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 16
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 2013074637,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 2400,
+						strength: 4
+					}
+				},
+				Damage: 18
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -699573534,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 3000,
+						strength: 4
+					}
+				},
+				Damage: 20
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -1340743015,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 1200,
+						strength: 4
+					}
+				},
+				Damage: 22
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -989481637,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 1200,
+						strength: 4
+					}
+				},
+				Damage: 24
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 452929290,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 1200,
+						strength: 4
+					}
+				},
+				Damage: 26
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 841494200,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 240,
+						strength: 4
+					}
+				},
+				Damage: 34
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -276253575,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 300,
+						strength: 4
+					}
+				},
+				Damage: 36
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -2099628962,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 160,
+						strength: 4
+					}
+				},
+				Damage: 38
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1713459035,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 400,
+						strength: 4
+					}
+				},
+				Damage: 40
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 667338013,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 160,
+						strength: 4
+					}
+				},
+				Damage: 42
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: -272139586,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 400,
+						strength: 4
+					}
+				},
+				Damage: 44
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 662390529,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 400,
+						strength: 4
+					}
+				},
+				Damage: 46
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1688632970,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 600,
+						strength: 4
+					}
+				},
+				Damage: 48
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 2105616090,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 200,
+						strength: 4
+					}
+				},
+				Damage: 50
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1006130333,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 160,
+						strength: 4
+					}
+				},
+				Damage: 52
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1218964385,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 400,
+						strength: 4
+					}
+				},
+				Damage: 54
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 177148464,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 40,
+						strength: 4
+					}
+				},
+				Damage: 56
+			},
+			ignore_nbt: 1,
+			type: "item"
+		},
+		{
+			uid: 1771358949,
+			item: {
+				ForgeCaps: {
+					"astralsorcery:cap_item_amulet_holder": {},
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "thebetweenlands:elixir",
+				tag: {
+					elixirData: {
+						duration: 200,
+						strength: 4
+					}
+				},
+				Damage: 58
+			},
+			ignore_nbt: 1,
+			type: "item"
+		}
+	],
+	rewards: [{
+		uid: -294297690,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50
+		},
+		count: 2,
+		type: "item"
+	}]
+}
