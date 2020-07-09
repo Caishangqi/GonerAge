@@ -11,6 +11,7 @@ llibrary/*
 local/*
 logs/*
 mods/*
+armourers_workshop/*
 playerdata/*
 opframe_cache/*
 patchouli_books/*
@@ -23,6 +24,7 @@ versions/*
 crafttweaker.log
 frontierfurnace.png
 launcher_profiles.json
+BotaniaVars.dat
 options.txt
 optionsof.txt
 optionsshaders.txt
