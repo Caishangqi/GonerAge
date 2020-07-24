@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: -246940806,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "fossil:bio_goo"
+		},
+		type: "item"
+	}]
+}

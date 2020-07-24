@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "操控一切事物",
+	text: ["最终混合产物,它可以从宇宙根源上改变一切事物"],
+	tasks: [{
+		uid: -804533120,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:fossilcpu"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-97010234,
+		-434276002,
+		2114053924,
+		-270319496,
+		1756877404,
+		-1419136078,
+		-290129576,
+		-883468214
+	]
+}

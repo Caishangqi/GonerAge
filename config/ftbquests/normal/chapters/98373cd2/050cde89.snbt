@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: -2088936256,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:polymer_clay"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		965086978,
+		1625271931,
+		1679690374
+	]
+}

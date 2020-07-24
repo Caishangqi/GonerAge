@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: 215009161,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		type: "item"
+	}]
+}

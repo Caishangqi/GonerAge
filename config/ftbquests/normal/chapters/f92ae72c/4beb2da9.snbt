@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: 649081527,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:glasstube"
+		},
+		type: "item"
+	}],
+	dependencies: [I;308032404]
+}

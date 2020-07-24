@@ -1,0 +1,16 @@
+{
+	x: 6.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: -561597182,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "powersuits:powerarmorcomponent",
+			Damage: 2
+		},
+		type: "item"
+	}],
+	dependencies: [I;683436605]
+}

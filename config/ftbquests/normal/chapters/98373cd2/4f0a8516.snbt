@@ -1,0 +1,20 @@
+{
+	x: 8.5d,
+	y: -8.0d,
+	tasks: [{
+		uid: 421437054,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:drive"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-2144543940,
+		227093720,
+		1892963243,
+		-729915831
+	]
+}

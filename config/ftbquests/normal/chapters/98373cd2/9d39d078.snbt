@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: -2127900167,
+		item: {
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfruit",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		},
+		ignore_nbt: 2,
+		title: "Any listAllfruit",
+		type: "item",
+		ignore_damage: 1
+	}]
+}

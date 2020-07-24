@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: 1429074735,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:battery"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1952590911,
+		-1008483554,
+		504360344,
+		1826153807
+	]
+}

@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: -1598682490,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:microchip"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		712603595,
+		-1536775755,
+		-1134907001,
+		832711340,
+		1955011160
+	]
+}

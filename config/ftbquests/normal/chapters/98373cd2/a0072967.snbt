@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: -1887685727,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8929759015161976477L,
+					AS_Amulet_HolderMost: 4036390037831171476L
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:lapotronicorb",
+			tag: {
+				energy: 0
+			}
+		},
+		ignore_nbt: 1,
+		type: "item",
+		ignore_damage: 1
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 1711018084,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:transistor"
+		},
+		type: "item"
+	}],
+	dependencies: [I;432690448]
+}

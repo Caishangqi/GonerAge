@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: -199226619,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:part",
+			Damage: 42
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		1201006520,
+		1892963243
+	]
+}

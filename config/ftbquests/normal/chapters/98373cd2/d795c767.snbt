@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: -1709550903,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "siliconegreaseliquid",
+					Amount: 1000
+				}
+			}
+		},
+		type: "item"
+	}]
+}

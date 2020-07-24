@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: 814495488,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 13
+		},
+		type: "item"
+	}]
+}

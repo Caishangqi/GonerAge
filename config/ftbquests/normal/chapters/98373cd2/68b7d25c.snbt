@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: -1274197591,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:precursorchip"
+		},
+		type: "item"
+	}],
+	dependencies: [I;977132245]
+}

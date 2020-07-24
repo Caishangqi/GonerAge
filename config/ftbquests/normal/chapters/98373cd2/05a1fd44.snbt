@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: 352474973,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:chaos_shard"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1556681458,
+		-1824184812
+	]
+}

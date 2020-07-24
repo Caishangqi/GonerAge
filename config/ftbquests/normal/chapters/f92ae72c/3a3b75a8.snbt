@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 1025873825,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:criwire2"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-931855099]
+}

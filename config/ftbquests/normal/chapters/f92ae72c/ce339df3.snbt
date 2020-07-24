@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: -96094653,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:electricengineadvance"
+		},
+		type: "item"
+	}]
+}

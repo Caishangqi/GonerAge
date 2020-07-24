@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: 141364234,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:gearcomplex2"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1276976558,
+		-1639384514,
+		1211155703
+	]
+}

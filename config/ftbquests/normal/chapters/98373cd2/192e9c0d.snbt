@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: 1751190744,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:genematerial"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1870892732,
+		-1783480665,
+		-935868638
+	]
+}

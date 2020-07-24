@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: 800866763,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "fossil:analyzer"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		1264695909,
+		1371786396
+	]
+}

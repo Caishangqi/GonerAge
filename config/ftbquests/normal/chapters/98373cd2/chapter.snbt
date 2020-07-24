@@ -1,0 +1,13 @@
+{
+	always_invisible: 0,
+	default_quest_shape: "",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "gonerage:aichip"
+	},
+	description: ["望向未来"],
+	title: "远见:目标",
+	group: 0
+}

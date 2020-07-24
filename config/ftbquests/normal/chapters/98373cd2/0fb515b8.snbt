@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: -1259685020,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:plasmacore"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		1173533226,
+		-1101076301,
+		-1858688627
+	]
+}

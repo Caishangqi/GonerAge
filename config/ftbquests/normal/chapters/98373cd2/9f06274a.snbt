@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: -1743149521,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:pressure_chamber_valve"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: -139567190,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:artificialbrain"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		499693913,
+		-875660151,
+		-1024896474,
+		1300892965
+	]
+}

@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: 296619372,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_capacitor_melodic"
+		},
+		type: "item"
+	}],
+	dependencies: [I;857684901]
+}

@@ -1,0 +1,82 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "environmentaltech:pladium_crystal"
+	},
+	x: -2.5d,
+	y: -7.5d,
+	tasks: [
+		{
+			uid: 1979003513,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:lonsdaleite_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: -1592038704,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:pladium_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: 108016310,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:erodium_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: 894376916,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:kyronite_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: -1030756461,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:litherite_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: 979593714,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:ionite_crystal"
+			},
+			type: "item"
+		},
+		{
+			uid: -1619629321,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "environmentaltech:aethium_crystal"
+			},
+			type: "item"
+		}
+	]
+}

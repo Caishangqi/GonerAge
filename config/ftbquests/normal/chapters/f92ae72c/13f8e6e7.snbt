@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: -1721246189,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:siliconegrease"
+		},
+		type: "item"
+	}]
+}

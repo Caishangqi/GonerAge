@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: -960000859,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "arcanearchives:raw_quartz_cluster"
+		},
+		type: "item"
+	}]
+}

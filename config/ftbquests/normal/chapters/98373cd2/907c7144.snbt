@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: 1563027082,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:nutrientpaste"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1657155464,
+		512691329,
+		1110201919
+	]
+}

@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: 370226894,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:glitch_infused_ingot"
+		},
+		type: "item"
+	}]
+}

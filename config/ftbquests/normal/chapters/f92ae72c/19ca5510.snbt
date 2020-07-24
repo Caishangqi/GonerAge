@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: 541906329,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:vacuumtube"
+		},
+		type: "item"
+	}],
+	dependencies: [I;1273703849]
+}

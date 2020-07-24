@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: -9.0d,
+	tasks: [{
+		uid: -1214285519,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:magnite"
+		},
+		type: "item"
+	}]
+}

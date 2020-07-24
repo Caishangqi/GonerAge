@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: -2102286519,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:processor",
+			Damage: 4
+		},
+		type: "item"
+	}],
+	dependencies: [I;994993233]
+}

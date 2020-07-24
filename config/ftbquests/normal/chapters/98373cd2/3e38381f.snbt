@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: -156081019,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:neptunium"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-569801106]
+}

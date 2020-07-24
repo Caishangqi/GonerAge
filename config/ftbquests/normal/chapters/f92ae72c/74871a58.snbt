@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: -364872553,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:thermionic_tubes",
+			Damage: 4
+		},
+		type: "item"
+	}],
+	dependencies: [I;712603595]
+}

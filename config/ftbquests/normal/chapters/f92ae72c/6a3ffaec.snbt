@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: -764072613,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:controlcircuit"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		382230928,
+		-621126692
+	]
+}

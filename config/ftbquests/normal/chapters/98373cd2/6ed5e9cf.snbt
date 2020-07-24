@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: 885779086,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "fossil:cultivate"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-190037876,
+		512691329
+	]
+}

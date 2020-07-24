@@ -1,0 +1,15 @@
+{
+	x: -7.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: 740151644,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:crilogicmodel"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-1635475159]
+}

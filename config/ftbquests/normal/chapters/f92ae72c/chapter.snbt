@@ -1,0 +1,16 @@
+{
+	always_invisible: 0,
+	default_quest_shape: "",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "forestry:wrench"
+	},
+	description: [
+		"",
+		"此页面为参考页面,用来对比各个科技产物的等级之分"
+	],
+	title: "科技纠正:微调",
+	group: 0
+}

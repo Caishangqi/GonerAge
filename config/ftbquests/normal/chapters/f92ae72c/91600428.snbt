@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: -639179025,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:assembly_laser"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-454295224,
+		-1764544850
+	]
+}

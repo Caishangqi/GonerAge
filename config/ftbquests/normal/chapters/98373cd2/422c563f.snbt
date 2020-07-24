@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: 1734569864,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:solvent"
+		},
+		type: "item"
+	}]
+}

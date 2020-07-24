@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 1453611977,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:intergratecomputer"
+		},
+		type: "item"
+	}],
+	dependencies: [I;1286257808]
+}

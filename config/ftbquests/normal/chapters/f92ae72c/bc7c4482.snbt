@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: 2058597821,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:cpu8"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-970185610]
+}

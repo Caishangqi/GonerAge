@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: -461557858,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:singularity_ultimate"
+		},
+		type: "item"
+	}]
+}

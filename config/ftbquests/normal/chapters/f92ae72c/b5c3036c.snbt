@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: 1945304278,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 2
+		},
+		type: "item"
+	}],
+	dependencies: [I;-957638192]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: -1510284364,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pylon"
+		},
+		type: "item"
+	}]
+}

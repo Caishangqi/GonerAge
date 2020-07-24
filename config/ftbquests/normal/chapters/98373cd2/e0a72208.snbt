@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: 291477856,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:grapple_gun_spool"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: 742950274,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:cricachemodel"
+		},
+		type: "item"
+	}],
+	dependencies: [I;1338173926]
+}

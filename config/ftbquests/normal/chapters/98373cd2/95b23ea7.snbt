@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: -1652661158,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:mackintosh"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1719790614,
+		-1007614236
+	]
+}

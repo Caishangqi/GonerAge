@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: 1940346975,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:polyethene",
+			Damage: 2
+		},
+		type: "item"
+	}]
+}

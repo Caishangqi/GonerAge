@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: -1803658726,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersivetech:connectors"
+		},
+		type: "item"
+	}]
+}

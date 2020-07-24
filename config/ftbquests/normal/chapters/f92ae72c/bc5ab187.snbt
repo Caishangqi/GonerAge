@@ -1,0 +1,22 @@
+{
+	shape: "square",
+	x: -5.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: -705790001,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:circuitintegrated"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1136576158,
+		-1618493310,
+		-1323576051,
+		682202342,
+		-846139729
+	]
+}

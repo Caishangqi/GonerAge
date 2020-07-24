@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: -59113279,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:fusion_control_computer"
+		},
+		type: "item"
+	}]
+}

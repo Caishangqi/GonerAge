@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: 1719422338,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:heat_sink"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,96 @@
+{
+	x: 5.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: 841824423,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:serum_ge",
+			tag: {
+				MaxH: 20,
+				Health: 20,
+				IsAnalyzed: 0,
+				Genome: {
+					Chromosomes: [
+						{
+							UID1: "forestry.lepiBlueWing",
+							UID0: "forestry.lepiBlueWing",
+							Slot: 0
+						},
+						{
+							UID1: "forestry.sizeAverage",
+							UID0: "forestry.sizeAverage",
+							Slot: 1
+						},
+						{
+							UID1: "forestry.speedSlowest",
+							UID0: "forestry.speedSlowest",
+							Slot: 2
+						},
+						{
+							UID1: "forestry.lifespanShorter",
+							UID0: "forestry.lifespanShorter",
+							Slot: 3
+						},
+						{
+							UID1: "forestry.i5d",
+							UID0: "forestry.i5d",
+							Slot: 4
+						},
+						{
+							UID1: "forestry.i3d",
+							UID0: "forestry.i3d",
+							Slot: 5
+						},
+						{
+							UID1: "forestry.toleranceNone",
+							UID0: "forestry.toleranceNone",
+							Slot: 6
+						},
+						{
+							UID1: "forestry.toleranceNone",
+							UID0: "forestry.toleranceNone",
+							Slot: 7
+						},
+						{
+							UID1: "forestry.boolFalse",
+							UID0: "forestry.boolFalse",
+							Slot: 8
+						},
+						{
+							UID1: "forestry.boolFalse",
+							UID0: "forestry.boolFalse",
+							Slot: 9
+						},
+						{
+							UID1: "forestry.boolFalse",
+							UID0: "forestry.boolFalse",
+							Slot: 10
+						},
+						{
+							UID1: "forestry.flowersVanilla",
+							UID0: "forestry.flowersVanilla",
+							Slot: 11
+						},
+						{
+							UID1: "forestry.bfNone",
+							UID0: "forestry.bfNone",
+							Slot: 12
+						},
+						{
+							UID1: "forestry.cocoonDefault",
+							UID0: "forestry.cocoonDefault",
+							Slot: 13
+						}
+					]
+				}
+			}
+		},
+		ignore_nbt: 2,
+		only_from_crafting: 0,
+		type: "item",
+		ignore_damage: 1
+	}]
+}

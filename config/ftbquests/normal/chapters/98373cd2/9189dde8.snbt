@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: 55225900,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:icearray"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		260685580,
+		-760921413,
+		1043871775
+	]
+}

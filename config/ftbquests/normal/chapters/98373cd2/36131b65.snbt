@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: 439419295,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:material",
+			Damage: 32
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		1543029874,
+		1071739135,
+		1282169643
+	]
+}

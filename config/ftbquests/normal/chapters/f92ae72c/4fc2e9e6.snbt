@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 999353807,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:processorelectronicelement"
+		},
+		type: "item"
+	}]
+}

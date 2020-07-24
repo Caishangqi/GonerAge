@@ -24,7 +24,6 @@ recipes.remove(<techreborn:semi_fluid_generator>);
 recipes.remove(<techreborn:gas_turbine>);
 recipes.remove(<tconstruct:materials>);
 recipes.remove(<techreborn:part>);
-recipes.remove(<variedcommodities:carpentry_bench>);
 recipes.remove(<techreborn:part:29>);
 recipes.remove(<powersuits:powerarmorcomponent:8>);
 recipes.remove(<powersuits:powerarmorcomponent:7>);

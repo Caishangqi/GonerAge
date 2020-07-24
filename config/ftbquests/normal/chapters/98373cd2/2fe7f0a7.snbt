@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: 1719335671,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:stabilizer"
+		},
+		type: "item"
+	}]
+}

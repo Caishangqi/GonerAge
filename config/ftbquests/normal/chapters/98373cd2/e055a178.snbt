@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -8.0d,
+	tasks: [{
+		uid: 819741369,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:techpack"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		898735425,
+		168619904,
+		1326089494
+	]
+}

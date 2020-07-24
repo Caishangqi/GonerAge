@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: 1017572232,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:amadron_tablet",
+			tag: {
+				shoppingCart: []
+			},
+			Damage: 406
+		},
+		ignore_nbt: 1,
+		type: "item",
+		ignore_damage: 1
+	}],
+	dependencies: [I;1352508721]
+}

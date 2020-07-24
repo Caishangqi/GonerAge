@@ -1,0 +1,12 @@
+{
+	always_invisible: 0,
+	default_quest_shape: "",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecolonies:resourcescroll"
+	},
+	title: "落魄年代第V周目",
+	group: 0
+}

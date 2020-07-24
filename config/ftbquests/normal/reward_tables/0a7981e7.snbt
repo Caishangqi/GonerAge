@@ -5,7 +5,8 @@
 			"astralsorcery:cap_item_amulet_holder": {},
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "spiceoflife:lunchbag"
+		id: "spiceoflife:lunchbag",
+		Count: 1
 	},
 	title: "ÃÀÊ³Ì×²Í",
 	rewards: [

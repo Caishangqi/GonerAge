@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: 311303915,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:glassfiber"
+		},
+		type: "item"
+	}]
+}

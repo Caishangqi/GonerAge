@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: 2055340063,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:propolis",
+			Damage: 3
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: -1573608883,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "environmentaltech:diode"
+		},
+		type: "item"
+	}]
+}

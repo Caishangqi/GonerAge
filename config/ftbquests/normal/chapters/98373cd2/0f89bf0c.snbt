@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: -376386099,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:metallurgypart1"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1555713827,
+		-1892011408
+	]
+}

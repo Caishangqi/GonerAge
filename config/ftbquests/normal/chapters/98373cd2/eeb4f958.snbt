@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: 675815962,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:metallurgyaspecttransfer"
+		},
+		type: "item"
+	}],
+	dependencies: [I;263525816]
+}

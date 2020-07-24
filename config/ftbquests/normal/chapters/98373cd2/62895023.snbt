@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: 1244465074,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:compressed_iron_gear"
+		},
+		type: "item"
+	}],
+	dependencies: [I;179645724]
+}

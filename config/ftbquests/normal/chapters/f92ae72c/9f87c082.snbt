@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: -1029557014,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:smddiode"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-470125713]
+}

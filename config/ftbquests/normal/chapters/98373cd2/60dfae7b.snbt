@@ -1,0 +1,14 @@
+{
+	x: 11.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: 1535132697,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay_ball"
+		},
+		type: "item"
+	}]
+}

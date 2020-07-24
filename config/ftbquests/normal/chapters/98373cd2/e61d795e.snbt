@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: 1620497375,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:electriccore1"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-2124526152]
+}

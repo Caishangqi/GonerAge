@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: -1356177937,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuricacid",
+					Amount: 1000
+				}
+			}
+		},
+		type: "item"
+	}]
+}

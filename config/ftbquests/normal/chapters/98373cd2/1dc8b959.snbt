@@ -1,0 +1,20 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:brain"
+	},
+	x: -7.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: -507925583,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:brain"
+		},
+		type: "item"
+	}]
+}

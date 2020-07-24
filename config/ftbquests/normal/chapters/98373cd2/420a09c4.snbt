@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: -986812195,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:fabricator"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		803729575,
+		-698545805,
+		909077108
+	]
+}

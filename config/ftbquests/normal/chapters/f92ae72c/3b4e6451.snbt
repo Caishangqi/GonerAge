@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	title: "非中央处理器性能有极大地衰减",
+	tasks: [{
+		uid: 856023293,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:processor",
+			Damage: 3
+		},
+		type: "item"
+	}],
+	dependencies: [I;-1764544850]
+}

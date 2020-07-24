@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: 1288562566,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_capacitor_stellar"
+		},
+		type: "item"
+	}],
+	dependencies: [I;-891274611]
+}

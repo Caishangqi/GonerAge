@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: -62392136,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:enrichedalloy"
+		},
+		type: "item"
+	}]
+}

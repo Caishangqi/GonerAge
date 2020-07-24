@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -9.0d,
+	tasks: [{
+		uid: -657080667,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "refinedstorage:storage_housing"
+		},
+		type: "item"
+	}]
+}

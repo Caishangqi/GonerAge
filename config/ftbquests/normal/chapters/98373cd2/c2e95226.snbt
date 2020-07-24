@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: 1706701072,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		},
+		ignore_nbt: 1,
+		type: "item",
+		ignore_damage: 1
+	}]
+}

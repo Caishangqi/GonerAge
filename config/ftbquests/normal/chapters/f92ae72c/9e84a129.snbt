@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 1668268318,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:basicelectronicelement"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: -1335471014,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "embers:dust_metallurgic"
+		},
+		type: "item"
+	}]
+}

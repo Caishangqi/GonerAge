@@ -1,0 +1,42 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	tasks: [
+		{
+			uid: -1118481235,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "gonerage:cb"
+			},
+			type: "item"
+		},
+		{
+			uid: -599594168,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "gonerage:cg"
+			},
+			type: "item"
+		},
+		{
+			uid: 771251396,
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "gonerage:cd"
+			},
+			type: "item"
+		}
+	],
+	dependencies: [I;
+		-1881547397,
+		-1322424330,
+		1023821165,
+		687415439
+	]
+}

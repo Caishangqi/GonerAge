@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: -842118162,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:cridiode"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: 342504722,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "deepmoblearning:polymer_clay"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: -1078776533,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:servitorbehaviorchip"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		789940220,
+		-1086682276,
+		-57642673
+	]
+}

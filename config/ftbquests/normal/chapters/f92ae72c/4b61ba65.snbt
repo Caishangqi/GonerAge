@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: -1427818647,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:computer_cube"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-478757010,
+		-415348838
+	]
+}

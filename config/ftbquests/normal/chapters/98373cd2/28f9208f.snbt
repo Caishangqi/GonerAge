@@ -1,0 +1,15 @@
+{
+	x: 9.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: -682897421,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "techreborn:solar_panel",
+			Damage: 4
+		},
+		type: "item"
+	}]
+}

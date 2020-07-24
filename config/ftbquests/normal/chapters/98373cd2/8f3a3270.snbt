@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: -274337745,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "embers:wildfire_core"
+		},
+		type: "item"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: -1905798279,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:chaotic_core"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1985974247,
+		94502212,
+		-1151196647
+	]
+}

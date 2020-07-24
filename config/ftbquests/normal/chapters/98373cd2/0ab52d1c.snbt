@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: -1634467201,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pneumaticcraft:air_compressor"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-1626986678,
+		-952774129,
+		-1318216537
+	]
+}

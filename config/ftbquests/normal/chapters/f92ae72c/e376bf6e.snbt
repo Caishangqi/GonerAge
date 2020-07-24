@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: 948865144,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:motherboard"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		-835478029,
+		976975272,
+		1220327639,
+		1404991025
+	]
+}

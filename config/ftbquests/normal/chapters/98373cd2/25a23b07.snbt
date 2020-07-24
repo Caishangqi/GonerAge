@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: 27273702,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gonerage:blankframe"
+		},
+		type: "item"
+	}],
+	dependencies: [I;
+		1309989966,
+		912898031
+	]
+}
